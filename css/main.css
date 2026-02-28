@@ -148,14 +148,7 @@ body {
 }
 
 .hero::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -25%;
-    width: 150%;
-    height: 200%;
-    background: radial-gradient(ellipse at 30% 80%, rgba(255,215,0,0.15) 0%, transparent 60%);
-    pointer-events: none;
+    display: none;
 }
 
 .hero h1 {
