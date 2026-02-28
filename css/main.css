@@ -143,7 +143,7 @@ body::-webkit-scrollbar {
    3. HERO SECTION (Peach Garden Gradient)
    ========================================================================== */
 .hero {
-    background: linear-gradient(to bottom, var(--gnd-primary) 0%, #FFCCBC 20%, #FFE0D4 40%, #FFF0EB 55%, #ffffff 75%);
+    background: linear-gradient(to bottom, var(--gnd-primary) 0%, #FFCBA4 15%, #FFE0A0 35%, #FFF5C0 55%, #ffffff 75%);
     color: var(--gnd-secondary-dark);
     padding: 4rem 2rem;
     text-align: center;
