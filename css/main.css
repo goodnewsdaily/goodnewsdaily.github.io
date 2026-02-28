@@ -1159,13 +1159,14 @@ a.card {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    width: 44px;
-    height: 44px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     background: var(--gnd-secondary-dark);
     color: var(--gnd-accent);
     border: none;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
     cursor: pointer;
     z-index: 999;
     opacity: 0;
