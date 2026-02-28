@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
 }
 
 .nav a {
-    color: var(--text-dark);
+    color: var(--gnd-secondary-dark);
     text-decoration: none;
     font-weight: 500;
     transition: opacity 0.3s;
@@ -125,7 +125,7 @@ body::-webkit-scrollbar {
 
 .lang-select option {
     background: var(--white);
-    color: var(--text-dark);
+    color: var(--gnd-secondary-dark);
 }
 
 /* Mobile hamburger */
