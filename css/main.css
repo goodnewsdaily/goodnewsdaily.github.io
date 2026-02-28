@@ -1159,19 +1159,18 @@ a.card {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    width: 56px;
-    height: 56px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: var(--gnd-secondary-dark);
     color: var(--gnd-accent);
     border: none;
-    font-size: 1.6rem;
-    font-weight: bold;
+    font-size: 1.2rem;
     cursor: pointer;
     z-index: 999;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s, visibility 0.3s;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.2s;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
@@ -1184,7 +1183,7 @@ a.card {
 }
 
 .scroll-top-btn:hover {
-    opacity: 1;
+    transform: scale(1.1);
     background: var(--gnd-secondary);
 }
 
