@@ -1,32 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFAB91"/>
-      <stop offset="100%" style="stop-color:#E08A72"/>
+      <stop offset="0%" style="stop-color:#4CAF50"/>
+      <stop offset="100%" style="stop-color:#388E3C"/>
     </linearGradient>
   </defs>
-  <!-- Background circle -->
+  <!-- Green circle background -->
   <circle cx="50" cy="50" r="46" fill="url(#bg)"/>
-  <!-- Person silhouette - head -->
-  <circle cx="35" cy="30" r="9" fill="#fff"/>
-  <!-- Person body -->
-  <path d="M35,39 C35,39 28,42 26,52 C24,60 25,72 27,78" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
-  <path d="M35,39 C35,39 42,42 44,52 C45,58 43,68 42,74" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
-  <!-- Arm holding megaphone - raised up -->
-  <path d="M38,46 C42,42 48,38 52,36" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round"/>
-  <!-- Megaphone -->
-  <path d="M52,30 L72,20 L72,52 L52,42 Z" fill="#4CAF50"/>
-  <!-- Megaphone rim -->
-  <ellipse cx="72" cy="36" rx="3" ry="16" fill="#388E3C"/>
-  <!-- Megaphone opening detail -->
-  <ellipse cx="52" cy="36" rx="1.5" ry="6" fill="#388E3C"/>
+  <!-- Megaphone body - yellow -->
+  <path d="M22,38 L42,28 L70,16 L70,72 L42,60 L22,50 Z" fill="#FFF176"/>
+  <!-- Megaphone rim / bell -->
+  <ellipse cx="70" cy="44" rx="4" ry="28" fill="#FFD54F"/>
+  <!-- Megaphone mouthpiece -->
+  <ellipse cx="22" cy="44" rx="3" ry="6" fill="#FFD54F"/>
+  <!-- Megaphone handle -->
+  <rect x="30" y="52" width="8" height="18" rx="3" fill="#FFD54F"/>
   <!-- Sound waves -->
-  <path d="M76,30 C80,32 80,40 76,42" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
-  <path d="M80,26 C86,30 86,42 80,46" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
-  <path d="M84,22 C92,28 92,44 84,50" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.4"/>
-  <!-- Small stars/sparkles for positivity -->
-  <path d="M20,18 L22,14 L24,18 L28,20 L24,22 L22,26 L20,22 L16,20 Z" fill="#FFE082" opacity="0.9"/>
-  <path d="M78,60 L79,57 L80,60 L83,61 L80,62 L79,65 L78,62 L75,61 Z" fill="#FFE082" opacity="0.7"/>
-  <!-- Subtle border -->
-  <circle cx="50" cy="50" r="46" fill="none" stroke="#E08A72" stroke-width="1.5" opacity="0.3"/>
+  <path d="M78,34 C84,37 84,51 78,54" stroke="#FFF176" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M84,27 C93,33 93,55 84,61" stroke="#FFF176" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M90,21 C100,29 100,59 90,67" stroke="#FFF176" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35"/>
 </svg>
