@@ -117,6 +117,18 @@
         document.querySelector('.nav').classList.toggle('open');
     });
     </script>
+    <script>
+    (function() {
+      var el = document.getElementById('visitor-counter');
+      if (!el) return;
+      setTimeout(function() {
+        fetch('https://goodnewsdaily.goatcounter.com/counter/' + encodeURIComponent(location.pathname || '/') + '.json')
+          .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+          .then(function(data) { el.textContent = data.count + ' visitors'; })
+          .catch(function() {});
+      }, 1500);
+    })();
+    </script>
 <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll to top">&#9650;</button>
 <script>
 const stb=document.getElementById("scroll-top-btn");
