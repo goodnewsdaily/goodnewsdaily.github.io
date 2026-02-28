@@ -276,7 +276,7 @@ a.card {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.35rem;
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     display: inline;
     vertical-align: middle;
 }
@@ -390,7 +390,7 @@ a.card {
 }
 
 .news-why-it-matters strong {
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -409,7 +409,7 @@ a.card {
 }
 
 .news-card-read-more:hover {
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     text-decoration: underline;
 }
 
@@ -572,7 +572,7 @@ a.card {
     font-size: 0.75rem;
     font-weight: 600;
     background: var(--gnd-bg);
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
 }
 
 .music-card-genre {
@@ -687,7 +687,7 @@ a.card {
 .comedian-name {
     font-size: 1.15rem;
     font-weight: 600;
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
 }
 
 .comedian-country {
@@ -735,7 +735,7 @@ a.card {
     font-size: 0.75rem;
     font-weight: 500;
     background: var(--gnd-bg);
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     border: 1px solid var(--border-gray);
 }
 
@@ -771,7 +771,7 @@ a.card {
 
 .joke-card-punchline {
     font-size: 1rem;
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     font-weight: 600;
     padding: 0.75rem 1rem;
     background: linear-gradient(135deg, #FFF8E1 0%, var(--gnd-bg) 100%);
@@ -821,7 +821,7 @@ a.card {
     font-size: 0.72rem;
     font-weight: 600;
     background: var(--gnd-bg);
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
 }
 
 /* Joke of the Day (homepage) */
@@ -838,7 +838,7 @@ a.card {
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     font-weight: 600;
     margin-bottom: 0.75rem;
 }
@@ -853,7 +853,7 @@ a.card {
 .joke-of-day-punchline {
     font-size: 1.15rem;
     font-weight: 600;
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     padding: 0.75rem 1.5rem;
     background: var(--white);
     border-radius: 10px;
@@ -1073,7 +1073,7 @@ a.card {
 }
 
 .home-section-header a:hover {
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     text-decoration: underline;
 }
 
@@ -1089,7 +1089,7 @@ a.card {
 }
 
 .about-box h2 {
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
     font-weight: 400;
     margin-bottom: 0.5rem;
 }
@@ -1618,7 +1618,7 @@ a.card {
     font-size: 0.88rem;
     line-height: 1.5;
 }
-.news-card-matters strong { color: var(--gnd-dark); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.news-card-matters strong { color: var(--gnd-secondary-dark); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
 .news-card-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.25rem; }
 .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
 .news-card { background: var(--white); border: 1px solid var(--border-gray); border-left: 4px solid var(--gnd-primary); }
@@ -1637,7 +1637,7 @@ a.card {
 .comedian-emoji { font-size: 2rem; flex-shrink: 0; }
 .comedian-meta { font-size: 0.85rem; color: var(--text-gray); }
 .comedian-famous { font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem; color: var(--text-gray); }
-.comedian-famous strong, .comedian-bit strong { color: var(--gnd-dark); }
+.comedian-famous strong, .comedian-bit strong { color: var(--gnd-secondary-dark); }
 .comedian-bit { font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.75rem; color: var(--text-gray); }
 
 /* Joke card rendering */
