@@ -139,8 +139,8 @@ body {
    3. HERO SECTION (Sunrise Gradient)
    ========================================================================== */
 .hero {
-    background: linear-gradient(to bottom, var(--gnd-primary) 0%, var(--gnd-accent) 100%);
-    color: var(--white);
+    background: linear-gradient(to bottom, var(--gnd-primary) 0%, var(--white) 100%);
+    color: var(--text-dark);
     padding: 4rem 2rem;
     text-align: center;
     position: relative;
