@@ -1,36 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFD700"/>
-      <stop offset="60%" style="stop-color:#FFA500"/>
-      <stop offset="100%" style="stop-color:#005A8E"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFAB91"/>
+      <stop offset="100%" style="stop-color:#E08A72"/>
     </linearGradient>
-    <clipPath id="circle">
-      <circle cx="50" cy="50" r="46"/>
-    </clipPath>
   </defs>
   <!-- Background circle -->
-  <circle cx="50" cy="50" r="46" fill="url(#sky)"/>
-  <g clip-path="url(#circle)">
-    <!-- Sun: half circle rising from horizon -->
-    <circle cx="50" cy="62" r="18" fill="#fff" opacity="0.9"/>
-    <circle cx="50" cy="62" r="15" fill="#FFD700"/>
-    <!-- Sun glow -->
-    <circle cx="50" cy="62" r="24" fill="#FFD700" opacity="0.15"/>
-    <!-- Ocean -->
-    <rect x="0" y="62" width="100" height="40" fill="#005A8E" opacity="0.85"/>
-    <!-- Waves -->
-    <path d="M0,66 Q12,62 25,66 Q38,70 50,66 Q62,62 75,66 Q88,70 100,66 L100,72 Q88,68 75,72 Q62,76 50,72 Q38,68 25,72 Q12,76 0,72 Z" fill="#0077BE" opacity="0.5"/>
-    <!-- Palm silhouette -->
-    <path d="M78,95 Q76,78 74,65 Q73,58 75,54" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-    <!-- Palm fronds - elegant curves -->
-    <path d="M75,54 C68,46 58,44 50,48" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M75,54 C70,43 62,38 56,38" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M75,54 C80,44 88,42 92,46" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M75,54 C82,46 90,46 95,50" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
-    <path d="M75,54 C73,42 68,36 64,34" stroke="#1a1a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-    <path d="M75,54 C80,42 84,36 86,34" stroke="#1a1a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-  </g>
+  <circle cx="50" cy="50" r="46" fill="url(#bg)"/>
+  <!-- Person silhouette - head -->
+  <circle cx="35" cy="30" r="9" fill="#fff"/>
+  <!-- Person body -->
+  <path d="M35,39 C35,39 28,42 26,52 C24,60 25,72 27,78" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M35,39 C35,39 42,42 44,52 C45,58 43,68 42,74" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Arm holding megaphone - raised up -->
+  <path d="M38,46 C42,42 48,38 52,36" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <!-- Megaphone -->
+  <path d="M52,30 L72,20 L72,52 L52,42 Z" fill="#4CAF50"/>
+  <!-- Megaphone rim -->
+  <ellipse cx="72" cy="36" rx="3" ry="16" fill="#388E3C"/>
+  <!-- Megaphone opening detail -->
+  <ellipse cx="52" cy="36" rx="1.5" ry="6" fill="#388E3C"/>
+  <!-- Sound waves -->
+  <path d="M76,30 C80,32 80,40 76,42" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M80,26 C86,30 86,42 80,46" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M84,22 C92,28 92,44 84,50" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <!-- Small stars/sparkles for positivity -->
+  <path d="M20,18 L22,14 L24,18 L28,20 L24,22 L22,26 L20,22 L16,20 Z" fill="#FFE082" opacity="0.9"/>
+  <path d="M78,60 L79,57 L80,60 L83,61 L80,62 L79,65 L78,62 L75,61 Z" fill="#FFE082" opacity="0.7"/>
   <!-- Subtle border -->
-  <circle cx="50" cy="50" r="46" fill="none" stroke="#005A8E" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="50" cy="50" r="46" fill="none" stroke="#E08A72" stroke-width="1.5" opacity="0.3"/>
 </svg>

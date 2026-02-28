@@ -1,6 +1,6 @@
 /* ==========================================================================
    GoodNewsDaily - Positive News, Music & Comedy Platform
-   Sunrise Coral + Sky Blue + Gold theme with shared layout system
+   Peach + Deep Green theme with shared layout system
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
@@ -13,18 +13,18 @@
 }
 
 :root {
-    --gnd-primary: #DAA520;
-    --gnd-dark: #B8860B;
-    --gnd-light: #E8C547;
-    --gnd-secondary: #0077BE;
-    --gnd-secondary-dark: #005A8E;
-    --gnd-accent: #FFD700;
-    --gnd-bg: #FFF8F0;
+    --gnd-primary: #FFAB91;
+    --gnd-dark: #E08A72;
+    --gnd-light: #FFCCBC;
+    --gnd-secondary: #4CAF50;
+    --gnd-secondary-dark: #388E3C;
+    --gnd-accent: #FFE082;
+    --gnd-bg: #FFF5F0;
     --text-dark: #1a1a1a;
     --text-gray: #555;
     --white: #ffffff;
     --border-gray: #e0e0e0;
-    --hover-tint: #FFFDE6;
+    --hover-tint: #FFF0EB;
     --header-h: 56px;
 
     /* Category colors */
@@ -140,10 +140,10 @@ body::-webkit-scrollbar {
 }
 
 /* ==========================================================================
-   3. HERO SECTION (Sunrise Gradient)
+   3. HERO SECTION (Peach Garden Gradient)
    ========================================================================== */
 .hero {
-    background: linear-gradient(to bottom, var(--gnd-primary) 0%, #FFE44D 20%, #FFF2A0 40%, #FFFBE6 55%, #ffffff 75%);
+    background: linear-gradient(to bottom, var(--gnd-primary) 0%, #FFCCBC 20%, #FFE0D4 40%, #FFF0EB 55%, #ffffff 75%);
     color: var(--gnd-secondary-dark);
     padding: 4rem 2rem;
     text-align: center;
