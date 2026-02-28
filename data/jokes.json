@@ -1,0 +1,302 @@
+[
+  {
+    "id": "joke_001",
+    "text": { "en": "I told my wife she was drawing her eyebrows too high. She looked surprised." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_002",
+    "text": { "en": "I used to hate facial hair, but then it grew on me." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_003",
+    "text": { "en": "I'm reading a book about anti-gravity. It's impossible to put down." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_004",
+    "text": { "en": "The future, the present, and the past walked into a bar. Things got a little tense." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_005",
+    "text": { "en": "A bicycle can't stand on its own because it's two-tired." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_006",
+    "text": { "en": "I didn't believe my dad was a road construction worker, but when I went to visit him, all the signs were there." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_007",
+    "text": { "en": "What do you call a fake noodle? An impasta." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_008",
+    "text": { "en": "I used to be a banker, but I lost interest." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_009",
+    "text": { "en": "The rotation of Earth really makes my day." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_010",
+    "text": { "en": "I told my doctor I broke my arm in two places. He told me to stop going to those places." },
+    "category": "wordplay",
+    "attribution": "Henny Youngman"
+  },
+  {
+    "id": "joke_011",
+    "text": { "en": "The person who invented knock-knock jokes should get a no-bell prize." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_012",
+    "text": { "en": "Time flies like an arrow. Fruit flies like a banana." },
+    "category": "wordplay",
+    "attribution": "Groucho Marx"
+  },
+  {
+    "id": "joke_013",
+    "text": { "en": "I'm writing a book about reverse psychology. Please don't buy it." },
+    "category": "wordplay",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_014",
+    "text": { "en": "Nothing ruins a Friday more than an understanding that today is Tuesday." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_015",
+    "text": { "en": "My bed is a magical place where I suddenly remember everything I forgot to do." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_016",
+    "text": { "en": "The quickest way to double your money is to fold it in half and put it back in your pocket." },
+    "category": "observational",
+    "attribution": "Will Rogers"
+  },
+  {
+    "id": "joke_017",
+    "text": { "en": "Why do they call it rush hour when nothing moves?" },
+    "category": "observational",
+    "attribution": "Robin Williams"
+  },
+  {
+    "id": "joke_018",
+    "text": { "en": "Adults are just kids with money and back pain." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_019",
+    "text": { "en": "The first five days after the weekend are always the hardest." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_020",
+    "text": { "en": "Common sense is like deodorant. The people who need it most never use it." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_021",
+    "text": { "en": "Why do we park in driveways and drive on parkways?" },
+    "category": "observational",
+    "attribution": "George Carlin"
+  },
+  {
+    "id": "joke_022",
+    "text": { "en": "The shinbone is a device for finding furniture in a dark room." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_023",
+    "text": { "en": "A bus station is where a bus stops. A train station is where a train stops. On my desk, I have a work station." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_024",
+    "text": { "en": "My grandpa started walking five miles a day when he was sixty. He's ninety-seven now, and we have no idea where he is." },
+    "category": "observational",
+    "attribution": "Ellen DeGeneres"
+  },
+  {
+    "id": "joke_025",
+    "text": { "en": "There are three kinds of people in the world: those who can count, and those who can't." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_026",
+    "text": { "en": "Hospitality is making your guests feel at home, even if you wish they were." },
+    "category": "observational",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_027",
+    "text": { "en": "I haven't slept for ten days, because that would be too long." },
+    "category": "one-liners",
+    "attribution": "Mitch Hedberg"
+  },
+  {
+    "id": "joke_028",
+    "text": { "en": "I used to think I was indecisive. But now I'm not so sure." },
+    "category": "one-liners",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_029",
+    "text": { "en": "I have an inferiority complex, but it's not a very good one." },
+    "category": "one-liners",
+    "attribution": "Steven Wright"
+  },
+  {
+    "id": "joke_030",
+    "text": { "en": "Outside of a dog, a book is man's best friend. Inside of a dog, it's too dark to read." },
+    "category": "one-liners",
+    "attribution": "Groucho Marx"
+  },
+  {
+    "id": "joke_031",
+    "text": { "en": "I want to die peacefully in my sleep, like my grandfather. Not screaming and yelling like the passengers in his car." },
+    "category": "one-liners",
+    "attribution": "Bob Monkhouse"
+  },
+  {
+    "id": "joke_032",
+    "text": { "en": "My fake plants died because I did not pretend to water them." },
+    "category": "one-liners",
+    "attribution": "Mitch Hedberg"
+  },
+  {
+    "id": "joke_033",
+    "text": { "en": "Nostalgia isn't what it used to be." },
+    "category": "one-liners",
+    "attribution": "Peter De Vries"
+  },
+  {
+    "id": "joke_034",
+    "text": { "en": "I went to buy some camouflage trousers the other day, but I couldn't find any." },
+    "category": "one-liners",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_035",
+    "text": { "en": "I went to a restaurant that serves breakfast at any time. So I ordered French toast during the Renaissance." },
+    "category": "one-liners",
+    "attribution": "Steven Wright"
+  },
+  {
+    "id": "joke_036",
+    "text": { "en": "I can't believe I got fired from the calendar factory. All I did was take a day off." },
+    "category": "one-liners",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_037",
+    "text": { "en": "I have a lot of growing up to do. I realized that the other day inside my fort." },
+    "category": "one-liners",
+    "attribution": "Zach Galifianakis"
+  },
+  {
+    "id": "joke_038",
+    "text": { "en": "I couldn't figure out why the baseball kept getting bigger. Then it hit me." },
+    "category": "one-liners",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_039",
+    "text": { "en": "Life is short. Smile while you still have teeth." },
+    "category": "life",
+    "attribution": "Anonymous"
+  },
+  {
+    "id": "joke_040",
+    "text": { "en": "The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it." },
+    "category": "life",
+    "attribution": "Terry Pratchett"
+  },
+  {
+    "id": "joke_041",
+    "text": { "en": "Do not take life too seriously. You will never get out of it alive." },
+    "category": "life",
+    "attribution": "Elbert Hubbard"
+  },
+  {
+    "id": "joke_042",
+    "text": { "en": "The road to success is always under construction." },
+    "category": "life",
+    "attribution": "Lily Tomlin"
+  },
+  {
+    "id": "joke_043",
+    "text": { "en": "Age is something that doesn't matter, unless you are a cheese." },
+    "category": "life",
+    "attribution": "Luis Bunuel"
+  },
+  {
+    "id": "joke_044",
+    "text": { "en": "By the time a man realizes that his father was right, he has a son who thinks he's wrong." },
+    "category": "life",
+    "attribution": "Charles Wadsworth"
+  },
+  {
+    "id": "joke_045",
+    "text": { "en": "The early bird might get the worm, but the second mouse gets the cheese." },
+    "category": "life",
+    "attribution": "Steven Wright"
+  },
+  {
+    "id": "joke_046",
+    "text": { "en": "A diplomat is someone who can tell you to go to hell in such a way that you actually look forward to the trip." },
+    "category": "life",
+    "attribution": "Caskie Stinnett"
+  },
+  {
+    "id": "joke_047",
+    "text": { "en": "Experience is a wonderful thing. It enables you to recognize a mistake when you make it again." },
+    "category": "life",
+    "attribution": "Franklin P. Jones"
+  },
+  {
+    "id": "joke_048",
+    "text": { "en": "If at first you don't succeed, then skydiving definitely isn't for you." },
+    "category": "life",
+    "attribution": "Steven Wright"
+  },
+  {
+    "id": "joke_049",
+    "text": { "en": "I intend to live forever. So far, so good." },
+    "category": "life",
+    "attribution": "Steven Wright"
+  },
+  {
+    "id": "joke_050",
+    "text": { "en": "Knowledge is knowing a tomato is a fruit. Wisdom is not putting it in a fruit salad." },
+    "category": "life",
+    "attribution": "Miles Kington"
+  }
+]

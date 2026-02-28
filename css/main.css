@@ -1,0 +1,1735 @@
+/* ==========================================================================
+   GoodNewsDaily - Positive News, Music & Comedy Platform
+   Sunrise Coral + Sky Blue + Gold theme with shared layout system
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. CSS RESET & CUSTOM PROPERTIES (VARIABLES)
+   -------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gnd-primary: #FF6B35;
+    --gnd-dark: #D4521E;
+    --gnd-light: #FF8F66;
+    --gnd-secondary: #0077BE;
+    --gnd-secondary-dark: #005A8E;
+    --gnd-accent: #FFD700;
+    --gnd-bg: #FFF8F0;
+    --text-dark: #1a1a1a;
+    --text-gray: #555;
+    --white: #ffffff;
+    --border-gray: #e0e0e0;
+    --hover-tint: #FFF0E6;
+    --header-h: 56px;
+
+    /* Category colors */
+    --cat-peace: #2E7D32;
+    --cat-science: #1565C0;
+    --cat-environment: #2D6A4F;
+    --cat-kindness: #C62828;
+    --cat-health: #6A1B9A;
+    --cat-technology: #E65100;
+}
+
+body {
+    font-family: 'Segoe UI', 'Open Sans', 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-dark);
+    background: var(--white);
+}
+
+/* ==========================================================================
+   2. HEADER
+   ========================================================================== */
+.header {
+    background: var(--gnd-primary);
+    color: var(--white);
+    padding: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 2rem;
+}
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    background: var(--white);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.nav a:hover {
+    opacity: 0.8;
+}
+
+.nav a.active {
+    border-bottom: 2px solid var(--gnd-accent);
+    padding-bottom: 2px;
+}
+
+/* Language Switcher */
+.lang-select {
+    background: rgba(255,255,255,0.2);
+    color: var(--white);
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 0.3rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.lang-select option {
+    background: var(--white);
+    color: var(--text-dark);
+}
+
+/* Mobile hamburger */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+
+/* ==========================================================================
+   3. HERO SECTION (Sunrise Gradient)
+   ========================================================================== */
+.hero {
+    background: linear-gradient(135deg, var(--gnd-primary) 0%, var(--gnd-secondary) 100%);
+    color: var(--white);
+    padding: 4rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -25%;
+    width: 150%;
+    height: 200%;
+    background: radial-gradient(ellipse at 30% 80%, rgba(255,215,0,0.15) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+    font-weight: 300;
+    position: relative;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+    position: relative;
+}
+
+.hero p.hero-stats {
+    margin: 0 auto 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+.hero-date {
+    font-size: 0.95rem;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+    position: relative;
+}
+
+/* ==========================================================================
+   4. CONTAINER & SECTION
+   ========================================================================== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: var(--gnd-dark);
+}
+
+.section-subtitle {
+    color: var(--text-gray);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* ==========================================================================
+   5. CARDS GRID
+   ========================================================================== */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* ==========================================================================
+   6. CARD BASE STYLES
+   ========================================================================== */
+.card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-left: 3px solid var(--gnd-primary);
+    padding: 1.25rem;
+    border-radius: 6px;
+    transition: box-shadow 0.3s, transform 0.2s, background 0.3s;
+    display: block;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(255,107,53,0.12);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, var(--white) 0%, var(--hover-tint) 100%);
+}
+
+a.card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+    color: var(--gnd-dark);
+    display: inline;
+    vertical-align: middle;
+}
+
+.card-description {
+    color: var(--text-gray);
+    font-size: 0.88rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.5;
+    margin-top: 0.3rem;
+}
+
+.card-link {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--gnd-primary);
+}
+
+/* ==========================================================================
+   7. NEWS CARDS
+   ========================================================================== */
+.news-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.news-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.news-card-category {
+    padding: 0.15rem 0.6rem;
+    border-radius: 12px;
+    color: var(--white);
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Category color classes */
+.cat-peace { background: var(--cat-peace); }
+.cat-science { background: var(--cat-science); }
+.cat-environment { background: var(--cat-environment); }
+.cat-kindness { background: var(--cat-kindness); }
+.cat-health { background: var(--cat-health); }
+.cat-technology { background: var(--cat-technology); }
+
+/* Category border accents for cards */
+.card[data-category="peace"] { border-left-color: var(--cat-peace); }
+.card[data-category="science"] { border-left-color: var(--cat-science); }
+.card[data-category="environment"] { border-left-color: var(--cat-environment); }
+.card[data-category="kindness"] { border-left-color: var(--cat-kindness); }
+.card[data-category="health"] { border-left-color: var(--cat-health); }
+.card[data-category="technology"] { border-left-color: var(--cat-technology); }
+
+.news-card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    line-height: 1.4;
+}
+
+.news-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.82rem;
+    color: var(--text-gray);
+    flex-wrap: wrap;
+}
+
+.news-card-date {
+    white-space: nowrap;
+}
+
+.news-card-source {
+    font-weight: 500;
+    color: var(--gnd-secondary);
+}
+
+.news-card-summary {
+    font-size: 0.92rem;
+    color: var(--text-gray);
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* "Why It Matters" highlight box */
+.news-why-it-matters {
+    background: linear-gradient(135deg, #FFF8E1 0%, #FFF3E0 100%);
+    border-left: 4px solid var(--gnd-accent);
+    border-radius: 0 8px 8px 0;
+    padding: 0.75rem 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+
+.news-why-it-matters strong {
+    color: var(--gnd-dark);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.news-card-read-more {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--gnd-primary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.news-card-read-more:hover {
+    color: var(--gnd-dark);
+    text-decoration: underline;
+}
+
+/* News card image placeholder */
+.news-card-image {
+    width: 100%;
+    height: 160px;
+    background: var(--gnd-bg);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.news-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ==========================================================================
+   8. FILTER BUTTONS
+   ========================================================================== */
+.filter-bar {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.filter-btn {
+    padding: 0.4rem 1rem;
+    border: 2px solid var(--border-gray);
+    border-radius: 20px;
+    background: var(--white);
+    color: var(--text-dark);
+    font-size: 0.88rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filter-btn:hover {
+    border-color: var(--gnd-primary);
+    background: var(--hover-tint);
+}
+
+.filter-btn.active {
+    background: var(--gnd-primary);
+    color: var(--white);
+    border-color: var(--gnd-primary);
+}
+
+/* Category-colored active filters */
+.filter-btn[data-category="peace"].active { background: var(--cat-peace); border-color: var(--cat-peace); }
+.filter-btn[data-category="science"].active { background: var(--cat-science); border-color: var(--cat-science); }
+.filter-btn[data-category="environment"].active { background: var(--cat-environment); border-color: var(--cat-environment); }
+.filter-btn[data-category="kindness"].active { background: var(--cat-kindness); border-color: var(--cat-kindness); }
+.filter-btn[data-category="health"].active { background: var(--cat-health); border-color: var(--cat-health); }
+.filter-btn[data-category="technology"].active { background: var(--cat-technology); border-color: var(--cat-technology); }
+
+/* ==========================================================================
+   9. MUSIC CARDS & YOUTUBE EMBED
+   ========================================================================== */
+.music-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.music-card .card-content {
+    padding: 1rem 1.25rem 1.25rem;
+}
+
+/* YouTube embed container (16:9 responsive) */
+.youtube-embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.youtube-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* YouTube placeholder (before loading) */
+.youtube-placeholder {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    cursor: pointer;
+}
+
+.youtube-placeholder::after {
+    content: '\25B6';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 42px;
+    background: rgba(255,0,0,0.85);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 1.2rem;
+    padding-left: 3px;
+    line-height: 42px;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.youtube-placeholder:hover::after {
+    background: rgba(255,0,0,1);
+}
+
+.youtube-placeholder img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.music-card-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.25rem;
+}
+
+.music-card-artist {
+    font-size: 0.9rem;
+    color: var(--gnd-secondary);
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.music-card-region {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: var(--gnd-bg);
+    color: var(--gnd-dark);
+}
+
+.music-card-genre {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: #E3F2FD;
+    color: var(--gnd-secondary-dark);
+    margin-left: 0.3rem;
+}
+
+.music-card-description {
+    font-size: 0.88rem;
+    color: var(--text-gray);
+    line-height: 1.5;
+    margin-top: 0.5rem;
+}
+
+/* Music pick of the day (homepage) */
+.music-pick {
+    background: linear-gradient(135deg, var(--gnd-bg) 0%, #E3F2FD 100%);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(0,119,190,0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.music-pick-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.music-pick-label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gnd-secondary);
+    font-weight: 600;
+}
+
+.music-pick-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.music-pick-artist {
+    font-size: 1.05rem;
+    color: var(--gnd-secondary);
+}
+
+.music-pick-embed {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   10. COMEDIAN PROFILE CARDS
+   ========================================================================== */
+.comedian-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.comedian-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.comedian-card:hover {
+    box-shadow: 0 4px 16px rgba(255,107,53,0.12);
+    transform: translateY(-2px);
+}
+
+.comedian-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.comedian-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--gnd-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.comedian-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.comedian-name {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--gnd-dark);
+}
+
+.comedian-country {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+}
+
+.comedian-style {
+    font-size: 0.85rem;
+    color: var(--gnd-primary);
+    font-weight: 500;
+}
+
+.comedian-bio {
+    font-size: 0.92rem;
+    color: var(--text-gray);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.comedian-quote {
+    font-style: italic;
+    padding: 0.75rem 1rem;
+    background: var(--gnd-bg);
+    border-left: 3px solid var(--gnd-accent);
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.comedian-tags {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.comedian-tag {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background: var(--gnd-bg);
+    color: var(--gnd-dark);
+    border: 1px solid var(--border-gray);
+}
+
+/* ==========================================================================
+   11. JOKE CARDS & RANDOM JOKE BUTTON
+   ========================================================================== */
+.joke-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s, transform 0.2s;
+    position: relative;
+}
+
+.joke-card:hover {
+    box-shadow: 0 4px 16px rgba(255,107,53,0.12);
+    transform: translateY(-2px);
+}
+
+.joke-card-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.joke-card-setup {
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.joke-card-punchline {
+    font-size: 1rem;
+    color: var(--gnd-dark);
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(135deg, #FFF8E1 0%, var(--gnd-bg) 100%);
+    border-radius: 8px;
+    border-left: 3px solid var(--gnd-accent);
+    line-height: 1.5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.joke-card-punchline.hidden {
+    opacity: 0;
+    user-select: none;
+}
+
+.joke-card-punchline.hidden::after {
+    content: attr(data-reveal-text);
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 1;
+    color: var(--gnd-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.joke-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    font-size: 0.82rem;
+    color: var(--text-gray);
+}
+
+.joke-card-comedian {
+    font-weight: 500;
+    color: var(--gnd-secondary);
+}
+
+.joke-card-type {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    background: var(--gnd-bg);
+    color: var(--gnd-dark);
+}
+
+/* Joke of the Day (homepage) */
+.joke-of-day {
+    background: linear-gradient(135deg, var(--gnd-bg) 0%, #FFF8E1 100%);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255,215,0,0.2);
+    text-align: center;
+}
+
+.joke-of-day-label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gnd-dark);
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.joke-of-day-setup {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.joke-of-day-punchline {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--gnd-dark);
+    padding: 0.75rem 1.5rem;
+    background: var(--white);
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(255,107,53,0.1);
+}
+
+.joke-of-day-comedian {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}
+
+/* Random Joke Button */
+.random-joke-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, var(--gnd-primary) 0%, var(--gnd-light) 100%);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 3px 12px rgba(255,107,53,0.3);
+}
+
+.random-joke-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(255,107,53,0.4);
+}
+
+.random-joke-btn:active {
+    transform: translateY(0);
+}
+
+.random-joke-btn .btn-icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s;
+}
+
+.random-joke-btn:hover .btn-icon {
+    transform: rotate(180deg);
+}
+
+/* Random joke display area */
+.random-joke-display {
+    margin-top: 1.5rem;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 12px;
+    border: 2px solid var(--gnd-bg);
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+}
+
+.random-joke-display.loading {
+    opacity: 0.5;
+}
+
+/* ==========================================================================
+   12. BUTTONS
+   ========================================================================== */
+.btn {
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-primary {
+    background: var(--gnd-primary);
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background: var(--gnd-dark);
+}
+
+.btn-secondary {
+    background: var(--gnd-secondary);
+    color: var(--white);
+}
+
+.btn-secondary:hover {
+    background: var(--gnd-secondary-dark);
+}
+
+.btn-outline {
+    background: var(--white);
+    color: var(--gnd-primary);
+    border: 2px solid var(--gnd-primary);
+}
+
+.btn-outline:hover {
+    background: var(--hover-tint);
+}
+
+/* ==========================================================================
+   13. TAG CHIPS
+   ========================================================================== */
+.tag {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    background: var(--gnd-bg);
+    color: var(--gnd-primary);
+    border: 1px solid var(--border-gray);
+}
+
+.category-tag {
+    background: var(--gnd-primary);
+    color: var(--white);
+    border: none;
+}
+
+/* ==========================================================================
+   14. HOMEPAGE SECTIONS
+   ========================================================================== */
+
+/* Featured news strip (horizontal) on homepage */
+.featured-news-strip {
+    display: flex;
+    overflow-x: auto;
+    gap: 1.25rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.5rem;
+    scroll-behavior: smooth;
+}
+
+.featured-news-strip .news-card {
+    flex: 0 0 calc((100% - 2 * 1.25rem) / 3);
+    scroll-snap-align: start;
+}
+
+/* Scroll wrapper (shared) */
+.scroll-wrapper {
+    position: relative;
+}
+
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    background: var(--gnd-primary);
+    color: var(--white);
+    font-size: 1.1rem;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, background 0.2s;
+}
+
+.scroll-arrow.visible {
+    opacity: 0.85;
+    visibility: visible;
+}
+
+.scroll-arrow:hover {
+    opacity: 1;
+    background: var(--gnd-dark);
+}
+
+.scroll-arrow-left {
+    left: -12px;
+}
+
+.scroll-arrow-right {
+    right: -12px;
+}
+
+/* Homepage section dividers */
+.home-section {
+    margin-bottom: 3rem;
+}
+
+.home-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.home-section-header h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--gnd-dark);
+}
+
+.home-section-header a {
+    font-size: 0.9rem;
+    color: var(--gnd-primary);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.home-section-header a:hover {
+    color: var(--gnd-dark);
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   15. ABOUT / EDITORIAL CONTENT
+   ========================================================================== */
+.about-box {
+    background: linear-gradient(135deg, var(--gnd-bg) 0%, #FFF0E6 100%);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255,107,53,0.1);
+}
+
+.about-box h2 {
+    color: var(--gnd-dark);
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.about-box p {
+    color: var(--text-gray);
+    line-height: 1.7;
+}
+
+/* Daily Quote */
+.daily-quote-box {
+    text-align: center;
+    padding: 1.5rem 2rem;
+    background: var(--gnd-bg);
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    border-left: 4px solid var(--gnd-accent);
+}
+
+.daily-quote-text {
+    font-size: 1.15rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.daily-quote-author {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}
+
+/* ==========================================================================
+   16. SHARE BAR
+   ========================================================================== */
+.share-bar {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-gray);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.share-bar span {
+    font-size: 0.9rem;
+    color: var(--text-gray);
+    margin-right: 0.5rem;
+}
+
+.share-btn {
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 16px;
+    background: var(--white);
+    color: var(--text-dark);
+    font-size: 0.85rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.share-btn:hover {
+    background: var(--hover-tint);
+}
+
+/* ==========================================================================
+   17. SCROLL TO TOP
+   ========================================================================== */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--gnd-primary);
+    color: var(--white);
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-top-btn.visible {
+    opacity: 0.85;
+    visibility: visible;
+}
+
+.scroll-top-btn:hover {
+    opacity: 1;
+    background: var(--gnd-dark);
+}
+
+/* ==========================================================================
+   18. FOOTER
+   ========================================================================== */
+.footer {
+    background: #2C1810;
+    color: var(--white);
+    padding: 3rem 2rem 1.5rem;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--gnd-accent);
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section li {
+    margin-bottom: 0.35rem;
+}
+
+.footer-section a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.footer-section a:hover {
+    color: var(--white);
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    text-align: center;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.footer-bottom p {
+    margin-bottom: 0.3rem;
+}
+
+.visitor-counter {
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.bmc-link a {
+    color: var(--gnd-accent);
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   19. INFO MODAL / OVERLAY
+   ========================================================================== */
+.info-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--gnd-bg);
+    color: var(--gnd-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid var(--border-gray);
+    font-style: italic;
+    transition: background 0.2s;
+    flex-shrink: 0;
+}
+
+.info-btn:hover {
+    background: var(--gnd-primary);
+    color: var(--white);
+}
+
+/* ==========================================================================
+   20. EMPTY STATE & LOADING
+   ========================================================================== */
+.empty-state {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: var(--text-gray);
+}
+
+.empty-state-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.empty-state-text {
+    font-size: 1.1rem;
+}
+
+@keyframes gnd-shimmer {
+    0% { background-position: -200px 0; }
+    100% { background-position: 200px 0; }
+}
+
+.loading-shimmer {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 400px 100%;
+    animation: gnd-shimmer 1.5s infinite;
+    border-radius: 8px;
+}
+
+/* ==========================================================================
+   21. BACK LINK
+   ========================================================================== */
+.back-link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    color: var(--gnd-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   22. TOOLTIP
+   ========================================================================== */
+.tooltip {
+    position: fixed;
+    background: #2C1810;
+    color: var(--white);
+    padding: 0.5rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    z-index: 2000;
+    pointer-events: none;
+    max-width: 300px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    display: none;
+}
+
+/* ==========================================================================
+   23. RESPONSIVE BREAKPOINTS
+   ========================================================================== */
+
+/* Tablet: 900px */
+@media (max-width: 900px) {
+    .header-content {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        right: 1.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .header-content {
+        position: relative;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav.open {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .comedian-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .music-pick {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-news-strip .news-card {
+        flex: 0 0 calc((100% - 1.25rem) / 2);
+    }
+}
+
+/* Mobile: 600px */
+@media (max-width: 600px) {
+    .header-content {
+        padding: 0 1rem;
+    }
+
+    .logo {
+        font-size: 1.25rem;
+        margin-right: 0;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero {
+        padding: 2rem 1rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .container {
+        padding: 1.5rem 1rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .filter-bar {
+        gap: 0.35rem;
+    }
+
+    .filter-btn {
+        padding: 0.3rem 0.75rem;
+        font-size: 0.8rem;
+    }
+
+    .news-card {
+        padding: 1rem;
+    }
+
+    .music-pick {
+        padding: 1.25rem;
+    }
+
+    .music-pick-title {
+        font-size: 1.15rem;
+    }
+
+    .joke-of-day {
+        padding: 1.25rem;
+    }
+
+    .joke-of-day-setup {
+        font-size: 1.05rem;
+    }
+
+    .random-joke-btn {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .featured-news-strip .news-card {
+        flex: 0 0 85%;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .home-section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+    }
+}
+
+/* ==========================================================================
+   24. RTL SUPPORT (Arabic)
+   ========================================================================== */
+[dir="rtl"] {
+    direction: rtl;
+}
+
+[dir="rtl"] .card {
+    border-left: none;
+    border-right: 3px solid var(--gnd-primary);
+}
+
+[dir="rtl"] .card[data-category="peace"] { border-left: none; border-right-color: var(--cat-peace); }
+[dir="rtl"] .card[data-category="science"] { border-left: none; border-right-color: var(--cat-science); }
+[dir="rtl"] .card[data-category="environment"] { border-left: none; border-right-color: var(--cat-environment); }
+[dir="rtl"] .card[data-category="kindness"] { border-left: none; border-right-color: var(--cat-kindness); }
+[dir="rtl"] .card[data-category="health"] { border-left: none; border-right-color: var(--cat-health); }
+[dir="rtl"] .card[data-category="technology"] { border-left: none; border-right-color: var(--cat-technology); }
+
+[dir="rtl"] .news-why-it-matters {
+    border-left: none;
+    border-right: 4px solid var(--gnd-accent);
+    border-radius: 8px 0 0 8px;
+}
+
+[dir="rtl"] .joke-card-punchline {
+    border-left: none;
+    border-right: 3px solid var(--gnd-accent);
+}
+
+[dir="rtl"] .comedian-quote {
+    border-left: none;
+    border-right: 3px solid var(--gnd-accent);
+    border-radius: 8px 0 0 8px;
+}
+
+[dir="rtl"] .daily-quote-box {
+    border-left: none;
+    border-right: 4px solid var(--gnd-accent);
+}
+
+[dir="rtl"] .logo {
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+[dir="rtl"] .card-icon {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+[dir="rtl"] .share-bar span {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+[dir="rtl"] .music-card-genre {
+    margin-left: 0;
+    margin-right: 0.3rem;
+}
+
+[dir="rtl"] .back-link::before {
+    content: '\2192 ';
+}
+
+[dir="rtl"] .scroll-top-btn {
+    right: auto;
+    left: 2rem;
+}
+
+[dir="rtl"] .scroll-arrow-left {
+    left: auto;
+    right: -12px;
+}
+
+[dir="rtl"] .scroll-arrow-right {
+    right: auto;
+    left: -12px;
+}
+
+[dir="rtl"] .hamburger {
+    right: auto;
+    left: 1.5rem;
+}
+
+/* ==========================================================================
+   25. APP.JS RENDERING CLASSES
+   ========================================================================== */
+
+/* News card rendering */
+.news-card-icon { font-size: 1.8rem; flex-shrink: 0; }
+.news-card-matters {
+    background: linear-gradient(135deg, #FFF8E1 0%, #FFF3E0 100%);
+    border-left: 4px solid var(--gnd-accent);
+    border-radius: 0 8px 8px 0;
+    padding: 0.75rem 1rem;
+    font-size: 0.88rem;
+    line-height: 1.5;
+}
+.news-card-matters strong { color: var(--gnd-dark); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.news-card-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.25rem; }
+.news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+.news-card { background: var(--white); border: 1px solid var(--border-gray); border-left: 4px solid var(--gnd-primary); }
+
+/* Music card rendering */
+.music-card-header { margin-bottom: 0.5rem; }
+.music-embed { position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; background: #000; border-radius: 8px; margin-bottom: 0.75rem; }
+.music-embed iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+.music-card-why { font-size: 0.88rem; color: var(--text-gray); line-height: 1.5; margin: 0.5rem 0; }
+.music-card-tags { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.5rem; }
+.music-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+.music-card { background: var(--white); border: 1px solid var(--border-gray); border-radius: 12px; padding: 1.25rem; transition: box-shadow 0.3s, transform 0.2s; }
+.music-card:hover { box-shadow: 0 4px 16px rgba(0,119,190,0.12); transform: translateY(-2px); }
+
+/* Comedian card rendering */
+.comedian-emoji { font-size: 2rem; flex-shrink: 0; }
+.comedian-meta { font-size: 0.85rem; color: var(--text-gray); }
+.comedian-famous { font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.5rem; color: var(--text-gray); }
+.comedian-famous strong, .comedian-bit strong { color: var(--gnd-dark); }
+.comedian-bit { font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.75rem; color: var(--text-gray); }
+
+/* Joke card rendering */
+.joke-text { font-size: 1.05rem; line-height: 1.6; color: var(--text-dark); margin-bottom: 0.5rem; }
+.joke-attribution { font-size: 0.85rem; color: var(--text-gray); font-style: italic; }
+.joke-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin-top: 1rem; }
+.joke-controls { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem; }
+
+/* Random joke display */
+.random-joke-box {
+    background: linear-gradient(135deg, var(--gnd-bg) 0%, #FFF8E1 100%);
+    border: 2px solid var(--gnd-accent);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.random-joke-text { font-size: 1.15rem; line-height: 1.6; margin-bottom: 1rem; }
+.random-joke-attr { font-size: 0.9rem; color: var(--text-gray); font-style: italic; margin-bottom: 1rem; }
+
+/* Homepage daily/spotlight boxes */
+.daily-pick-box, .daily-joke-box, .spotlight-box {
+    background: linear-gradient(135deg, var(--gnd-bg) 0%, #E3F2FD 100%);
+    border-radius: 16px;
+    padding: 2rem;
+    border: 1px solid rgba(0,119,190,0.1);
+}
+.daily-pick-box h3, .daily-joke-box h3, .spotlight-box h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gnd-secondary);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.daily-joke-box { background: linear-gradient(135deg, var(--gnd-bg) 0%, #FFF8E1 100%); border-color: rgba(255,215,0,0.2); }
+.daily-joke-text { font-size: 1.1rem; line-height: 1.6; margin-bottom: 0.75rem; }
+.daily-joke-attr { font-size: 0.9rem; color: var(--text-gray); font-style: italic; }
+
+/* Accent button */
+.btn-accent {
+    background: linear-gradient(135deg, var(--gnd-primary) 0%, var(--gnd-light) 100%);
+    color: var(--white);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 3px 12px rgba(255,107,53,0.3);
+}
+.btn-accent:hover { transform: translateY(-2px); box-shadow: 0 5px 20px rgba(255,107,53,0.4); }
+
+/* RTL additions for app.js classes */
+[dir="rtl"] .news-card { border-left: 1px solid var(--border-gray); border-right: 4px solid var(--gnd-primary); }
+[dir="rtl"] .news-card-matters { border-left: none; border-right: 4px solid var(--gnd-accent); border-radius: 8px 0 0 8px; }
+
+/* Responsive for app.js grids */
+@media (max-width: 900px) {
+    .news-grid, .music-grid { grid-template-columns: repeat(2, 1fr); }
+    .joke-controls { flex-direction: column; align-items: flex-start; }
+}
+@media (max-width: 600px) {
+    .news-grid, .music-grid, .joke-grid { grid-template-columns: 1fr; }
+    .daily-pick-box, .daily-joke-box, .spotlight-box { padding: 1.25rem; }
+}
+
+/* ==========================================================================
+   26. PRINT
+   ========================================================================== */
+@media print {
+    .header, .footer, .scroll-top-btn, .share-bar,
+    .filter-bar, .random-joke-btn, .lang-select, .nav,
+    .hamburger {
+        display: none !important;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .card,
+    .news-card,
+    .joke-card,
+    .comedian-card {
+        break-inside: avoid;
+    }
+
+    .hero {
+        background: var(--gnd-primary) !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+}

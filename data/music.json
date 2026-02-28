@@ -1,0 +1,167 @@
+[
+  {
+    "id": "music_001",
+    "title": "Chan Chan",
+    "artist": "Buena Vista Social Club",
+    "year": 1997,
+    "region": "latin-america",
+    "genre": "Son Cubano",
+    "why_listen": { "en": "A hypnotic Cuban melody that transports you to the streets of Havana. The gentle interplay of guitar and vocals is pure warmth and nostalgia." },
+    "youtube_id": "o5cELP06Mik",
+    "tags": ["classic", "feel-good", "iconic"]
+  },
+  {
+    "id": "music_002",
+    "title": "La Bamba",
+    "artist": "Ritchie Valens",
+    "year": 1958,
+    "region": "latin-america",
+    "genre": "Rock and Roll / Son Jarocho",
+    "why_listen": { "en": "The song that brought Mexican folk music to the world. Its infectious energy and driving rhythm make it impossible not to dance and smile." },
+    "youtube_id": "Jp6j5HJ-Cok",
+    "tags": ["classic", "dance", "iconic"]
+  },
+  {
+    "id": "music_003",
+    "title": "Como La Flor",
+    "artist": "Selena",
+    "year": 1992,
+    "region": "latin-america",
+    "genre": "Cumbia / Tejano",
+    "why_listen": { "en": "Selena's voice is pure joy made audible. This cumbia classic radiates warmth and will have you swaying from the first note." },
+    "youtube_id": "FjTMOVOrgp8",
+    "tags": ["dance", "classic", "cumbia"]
+  },
+  {
+    "id": "music_004",
+    "title": "Zombie",
+    "artist": "Fela Kuti",
+    "year": 1977,
+    "region": "africa",
+    "genre": "Afrobeat",
+    "why_listen": { "en": "The father of Afrobeat at his most powerful. This 12-minute groove is a masterclass in rhythm, protest, and the unifying power of music." },
+    "youtube_id": "ijnEyYMYMnY",
+    "tags": ["afrobeat", "protest", "legendary"]
+  },
+  {
+    "id": "music_005",
+    "title": "Pata Pata",
+    "artist": "Miriam Makeba",
+    "year": 1967,
+    "region": "africa",
+    "genre": "Afropop",
+    "why_listen": { "en": "Mama Africa's most beloved song is pure sunshine in musical form. The playful Xhosa lyrics and irresistible rhythm make everyone a dancer." },
+    "youtube_id": "lNeNaA0pMSQ",
+    "tags": ["classic", "dance", "feel-good"]
+  },
+  {
+    "id": "music_006",
+    "title": "Yeke Yeke",
+    "artist": "Mory Kante",
+    "year": 1987,
+    "region": "africa",
+    "genre": "Afro-Manding / Dance",
+    "why_listen": { "en": "The first African single to sell over a million copies in Europe. Its kora-driven melody and euphoric energy bridge continents and generations." },
+    "youtube_id": "ZMl_5MKjhHE",
+    "tags": ["dance", "crossover", "feel-good"]
+  },
+  {
+    "id": "music_007",
+    "title": "Mustt Mustt",
+    "artist": "Nusrat Fateh Ali Khan",
+    "year": 1990,
+    "region": "asia",
+    "genre": "Qawwali / World Fusion",
+    "why_listen": { "en": "Nusrat's voice is a force of nature that transcends language. This collaboration with Michael Brook merges Qawwali devotion with modern production into something otherworldly and uplifting." },
+    "youtube_id": "wGSCbHJbCHM",
+    "tags": ["spiritual", "fusion", "legendary"]
+  },
+  {
+    "id": "music_008",
+    "title": "Sukiyaki (Ue o Muite Arukou)",
+    "artist": "Kyu Sakamoto",
+    "year": 1961,
+    "region": "asia",
+    "genre": "Pop",
+    "why_listen": { "en": "The only Japanese-language song to reach number one in the US. Its bittersweet melody is universally beautiful and proves music needs no translation." },
+    "youtube_id": "C35DrtPlUbc",
+    "tags": ["classic", "bittersweet", "iconic"]
+  },
+  {
+    "id": "music_009",
+    "title": "Tunak Tunak Tun",
+    "artist": "Daler Mehndi",
+    "year": 1998,
+    "region": "asia",
+    "genre": "Bhangra Pop",
+    "why_listen": { "en": "Pure unfiltered joy and one of the first viral music videos globally. Its Bhangra beat and Daler Mehndi's infectious energy are guaranteed to lift any mood." },
+    "youtube_id": "vTIIMJ9tUc8",
+    "tags": ["dance", "viral", "feel-good"]
+  },
+  {
+    "id": "music_010",
+    "title": "La Vie en Rose",
+    "artist": "Edith Piaf",
+    "year": 1947,
+    "region": "europe",
+    "genre": "Chanson",
+    "why_listen": { "en": "Perhaps the most romantic song ever written. Piaf's voice turns the simple idea of seeing the world through rose-colored glasses into something transcendent and eternal." },
+    "youtube_id": "rzeLynkFDk0",
+    "tags": ["romance", "classic", "iconic"]
+  },
+  {
+    "id": "music_011",
+    "title": "Volare (Nel Blu Dipinto Di Blu)",
+    "artist": "Domenico Modugno",
+    "year": 1958,
+    "region": "europe",
+    "genre": "Italian Pop",
+    "why_listen": { "en": "The song that made the world fall in love with Italian music. Its soaring chorus about flying through a painted blue sky is the definition of joyful abandon." },
+    "youtube_id": "JMIHNkR0K3M",
+    "tags": ["classic", "joyful", "iconic"]
+  },
+  {
+    "id": "music_012",
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "year": 1967,
+    "region": "north-america",
+    "genre": "Jazz / Pop",
+    "why_listen": { "en": "Louis Armstrong's gravelly voice singing about the beauty of everyday life is the ultimate antidote to cynicism. A song that makes you want to slow down and appreciate being alive." },
+    "youtube_id": "A3yCcXgbKrE",
+    "tags": ["feel-good", "classic", "iconic"]
+  },
+  {
+    "id": "music_013",
+    "title": "Three Little Birds",
+    "artist": "Bob Marley & The Wailers",
+    "year": 1977,
+    "region": "north-america",
+    "genre": "Reggae",
+    "why_listen": { "en": "Every little thing is gonna be alright. Bob Marley distilled the entire philosophy of optimism into one perfect, breezy reggae tune that has comforted millions." },
+    "youtube_id": "zaGUr6wBO-A",
+    "tags": ["reggae", "uplifting", "iconic"]
+  },
+  {
+    "id": "music_014",
+    "title": "Batwanes Beek",
+    "artist": "Warda Al-Jazairia",
+    "year": 1973,
+    "region": "middle-east",
+    "genre": "Arabic Pop",
+    "why_listen": { "en": "Warda's voice is velvet and fire at once. This classic Arabic love song builds with orchestral grandeur into an overwhelming wave of emotion and beauty." },
+    "youtube_id": "o0c8MliVMYs",
+    "tags": ["classic", "arabic", "emotional"]
+  },
+  {
+    "id": "music_015",
+    "title": "Bint El Shalabiya",
+    "artist": "Fairuz",
+    "year": 1966,
+    "region": "middle-east",
+    "genre": "Arabic Classical / Folk",
+    "why_listen": { "en": "Fairuz's crystalline voice is the sound of Lebanon and the entire Arab world waking up in the morning. This song is gentle, hopeful, and profoundly beautiful." },
+    "youtube_id": "dP9FTJDFT2c",
+    "tags": ["classic", "morning-music", "legendary"]
+  }
+]

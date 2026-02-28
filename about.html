@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — GoodNewsDaily</title>
+    <meta name="description" content="About GoodNewsDaily — a free, ad-free platform dedicated to sharing positive stories, great music, and genuine humor from around the world.">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <img src="img/favicon.svg" alt="" class="logo-icon">
+                <span data-i18n="site.title">GoodNewsDaily</span>
+            </a>
+            <button class="hamburger" aria-label="Menu">&#9776;</button>
+            <nav class="nav">
+                <a href="news.html" data-i18n="nav.news">News</a>
+                <a href="music.html" data-i18n="nav.music">Music</a>
+                <a href="comedy.html" data-i18n="nav.comedy">Comedy</a>
+                <a href="about.html" class="active" data-i18n="nav.about">About</a>
+                <div id="lang-switcher"></div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; <span data-i18n="detail.back">Back to Home</span></a>
+
+        <h1 data-i18n="about.title">About GoodNewsDaily</h1>
+
+        <div class="about-box">
+            <p data-i18n="about.text1">GoodNewsDaily is a free, ad-free platform dedicated to sharing positive stories, great music, and genuine humor from around the world.</p>
+            <br>
+            <p data-i18n="about.text2">We believe that good news deserves as much attention as bad news. The world is full of people solving problems, creating beauty, and helping each other — their stories deserve to be told.</p>
+            <br>
+            <p data-i18n="about.text3">No algorithms. No clickbait. No doom. Just good stuff, curated with care.</p>
+        </div>
+
+        <h2 data-i18n="about.values_title" style="color:var(--gnd-dark);margin:2rem 0 1rem">Our Values</h2>
+
+        <div class="cards-grid grid-2">
+            <div class="card">
+                <div class="card-icon">&#x2600;&#xFE0F;</div>
+                <div class="card-title" data-i18n="about.value1">Positivity First — We only share stories that inspire, inform, or make you smile.</div>
+            </div>
+            <div class="card">
+                <div class="card-icon">&#x1F30D;</div>
+                <div class="card-title" data-i18n="about.value2">Global Perspective — Good news happens everywhere, not just in English-speaking countries.</div>
+            </div>
+            <div class="card">
+                <div class="card-icon">&#x1F512;</div>
+                <div class="card-title" data-i18n="about.value3">No Ads, No Tracking — Free forever, privacy-friendly, open to all.</div>
+            </div>
+            <div class="card">
+                <div class="card-icon">&#x2705;</div>
+                <div class="card-title" data-i18n="about.value4">Real Stories — Everything we share is verified and sourced. No fake feel-good.</div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-i18n="footer.projects">Our Projects</h3>
+                <ul>
+                    <li><a href="https://eatclever.github.io" target="_blank">&#x1F966; EatClever</a></li>
+                    <li><a href="https://world-bar.github.io" target="_blank">&#x1F30D; World Barometer</a></li>
+                    <li><a href="https://wildpedia.github.io" target="_blank">&#x1F43E; Wildpedia</a></li>
+                    <li><a href="https://wellbeingbar.github.io" target="_blank">&#x1F9D8; WellBeingBar</a></li>
+                    <li><a href="https://moneyclever.github.io" target="_blank">&#x1F4B0; MoneyClever</a></li>
+                    <li><a href="https://goodnewsdaily.github.io" target="_blank">&#x2600;&#xFE0F; GoodNewsDaily</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.about">About</h3>
+                <ul>
+                    <li><a href="about.html" data-i18n="footer.about.project">About GoodNewsDaily</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.explore">Explore</h3>
+                <ul>
+                    <li><a href="news.html" data-i18n="nav.news">News</a></li>
+                    <li><a href="music.html" data-i18n="nav.music">Music</a></li>
+                    <li><a href="comedy.html" data-i18n="nav.comedy">Comedy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.contact">Contact</h3>
+                <p><a href="mailto:globaldata9@protonmail.com" data-i18n="footer.email">Email</a></p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.legal">Legal</h3>
+                <ul>
+                    <li><a href="impressum.html" data-i18n="footer.legal.impressum">Legal Notice</a></li>
+                    <li><a href="privacy.html" data-i18n="footer.legal.privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer.copyright">&copy; 2026 GoodNewsDaily | The Antidote to Doomscrolling</p>
+            <p class="visitor-counter" id="visitor-counter"></p>
+            <p class="bmc-link"><a href="https://buymeacoffee.com/civicdata47" target="_blank" rel="noopener">&#9749; Buy me a Coffee</a></p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/app.js"></script>
+    <script data-goatcounter="https://goodnewsdaily.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+    <script>
+    document.querySelector('.hamburger').addEventListener('click', () => {
+        document.querySelector('.nav').classList.toggle('open');
+    });
+    </script>
+</body>
+</html>

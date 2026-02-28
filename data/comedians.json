@@ -1,0 +1,122 @@
+[
+  {
+    "id": "comedian_001",
+    "name": "George Carlin",
+    "years": "1937-2008",
+    "origin": "United States",
+    "style": "Satirical, observational, counter-culture, language-focused",
+    "bio": { "en": "George Carlin was a legendary American stand-up comedian who spent five decades dissecting language, politics, and culture with razor-sharp wit. He recorded 14 HBO specials and authored several bestselling books. Often called the dean of American comedy, he transformed stand-up from entertainment into a form of philosophical inquiry." },
+    "famous_for": { "en": "His 'Seven Words You Can Never Say on Television' routine, which led to a landmark Supreme Court case on broadcast censorship, and his brilliant deconstructions of everyday language and American hypocrisy." },
+    "best_bit": { "en": "'Stuff' (1981) - A masterful routine about how our lives revolve around accumulating, storing, and moving our stuff. Carlin builds from a simple observation into a devastating commentary on consumerism, all while keeping you laughing every ten seconds." },
+    "youtube_id": "MvgN5gCuLac",
+    "tags": ["legend", "satirical", "counter-culture"]
+  },
+  {
+    "id": "comedian_002",
+    "name": "Mitch Hedberg",
+    "years": "1968-2005",
+    "origin": "United States",
+    "style": "Surreal one-liners, deadpan delivery, absurdist wordplay",
+    "bio": { "en": "Mitch Hedberg was an American comedian beloved for his laid-back delivery and brilliantly constructed one-liners that found absurdity in the mundane. His sunglasses-and-shaggy-hair persona became iconic in the comedy world. Though he passed away at just 37, his jokes remain endlessly quotable and have influenced generations of comedians." },
+    "famous_for": { "en": "His unique one-liner style that combined stoner delivery with surgically precise wordplay. Lines like 'I used to do drugs. I still do, but I used to, too' became part of the comedy canon." },
+    "best_bit": { "en": "'Strategic Grill Locations' (1999) - His debut album is a rapid-fire collection of perfectly crafted observations, from escalators that become stairs when they break down to the absurdity of club sandwiches. Every joke is a tiny masterpiece of logic and surprise." },
+    "youtube_id": "7auvTMm57bY",
+    "tags": ["cult-favorite", "one-liners", "deadpan"]
+  },
+  {
+    "id": "comedian_003",
+    "name": "Robin Williams",
+    "years": "1951-2014",
+    "origin": "United States",
+    "style": "Improvisational, manic energy, character voices, heartfelt",
+    "bio": { "en": "Robin Williams was a comedic supernova whose improvisational genius could fill an entire show without a single scripted joke. He moved effortlessly between manic comedy and profound emotional depth, becoming one of the most beloved performers in entertainment history. His Academy Award-winning acting in 'Good Will Hunting' showed only a fraction of his extraordinary range." },
+    "famous_for": { "en": "His unmatched improvisational abilities, performing comedy at a speed and with a range of characters that seemed physically impossible. His HBO specials and talk show appearances remain legendary for their sheer creative energy." },
+    "best_bit": { "en": "'Live on Broadway' (2002) - A tour de force of improvisation where Williams riffs on everything from golf being invented by drunk Scotsmen to the invention of beer, cycling through dozens of accents and characters without ever pausing for breath." },
+    "youtube_id": "hOAEeBqjfco",
+    "tags": ["legend", "improvisational", "heartfelt"]
+  },
+  {
+    "id": "comedian_004",
+    "name": "Eddie Izzard",
+    "years": "1962-",
+    "origin": "United Kingdom",
+    "style": "Surreal, intellectual, historical riffs, stream-of-consciousness",
+    "bio": { "en": "Eddie Izzard is a British comedian, actor, and activist known for surreal, intellectually adventurous stand-up that weaves history, science, religion, and pop culture into hilarious stream-of-consciousness narratives. Izzard has performed shows in multiple languages including French, German, and Spanish. Beyond comedy, Izzard has run ultramarathons for charity and is an outspoken advocate for progressive causes." },
+    "famous_for": { "en": "Surreal historical comedy that makes the British Empire, the Church of England, and ancient civilizations genuinely funny. The 'Dress to Kill' special is widely considered one of the greatest stand-up performances ever filmed." },
+    "best_bit": { "en": "'Death Star Canteen' from 'Circle' (2002) - A brilliantly absurd routine imagining Darth Vader trying to get lunch in the Death Star cafeteria, only to be thwarted by an unimpressed server. It perfectly captures Izzard's gift for finding the mundane within the epic." },
+    "youtube_id": "Sv5iEK-IEzw",
+    "tags": ["surreal", "intellectual", "multilingual"]
+  },
+  {
+    "id": "comedian_005",
+    "name": "Dave Chappelle",
+    "years": "1973-",
+    "origin": "United States",
+    "style": "Storytelling, social commentary, provocative, philosophical",
+    "bio": { "en": "Dave Chappelle is an American comedian and actor whose work fearlessly explores race, politics, celebrity, and the American experience through masterful storytelling. His sketch show 'Chappelle's Show' became a cultural phenomenon before he famously walked away from a $50 million contract. His Netflix specials cemented his status as one of the greatest stand-up performers of his generation." },
+    "famous_for": { "en": "Chappelle's Show and its iconic sketches, plus his ability to weave deeply personal stories with sharp social commentary in ways that make audiences both laugh and think." },
+    "best_bit": { "en": "'Killin' Them Softly' (2000) - Often cited as one of the greatest stand-up specials ever, Chappelle delivers perfectly paced stories about race, police, and everyday life in America with a relaxed brilliance that makes the difficult seem effortless." },
+    "youtube_id": "",
+    "tags": ["storytelling", "social-commentary", "provocative"]
+  },
+  {
+    "id": "comedian_006",
+    "name": "Trevor Noah",
+    "years": "1984-",
+    "origin": "South Africa",
+    "style": "Observational, multicultural, language comedy, storytelling",
+    "bio": { "en": "Trevor Noah is a South African comedian who grew up during apartheid as the son of a Black Xhosa mother and a white Swiss father, an identity that was literally illegal. He went from performing in Johannesburg comedy clubs to hosting 'The Daily Show' for seven years. His memoir 'Born a Crime' is both hilarious and deeply moving, revealing how humor can be a survival tool in the most challenging circumstances." },
+    "famous_for": { "en": "His extraordinary ability to perform comedy in multiple languages, his nuanced cross-cultural observations, and making American political comedy accessible to a global audience during his tenure on The Daily Show." },
+    "best_bit": { "en": "'Son of Patricia' (2018) - A Netflix special where Noah masterfully moves between stories about his South African childhood, learning to navigate American culture, and hilarious impressions of world leaders. His bit about the different ways people run from danger across cultures is a standout." },
+    "youtube_id": "",
+    "tags": ["multicultural", "storytelling", "political"]
+  },
+  {
+    "id": "comedian_007",
+    "name": "Karl Valentin",
+    "years": "1882-1948",
+    "origin": "Germany",
+    "style": "Absurdist, physical comedy, linguistic humor, minimalist",
+    "bio": { "en": "Karl Valentin was a Bavarian comedian, actor, and filmmaker often called the Charlie Chaplin of Germany. His absurdist humor and linguistic playfulness influenced Bertolt Brecht, Samuel Beckett, and the entire tradition of European surreal comedy. Working primarily in the Bavarian dialect, he created sketches that turned logic inside out with deadpan precision." },
+    "famous_for": { "en": "His absurdist dialogues and sketches that dismantle logic and language with surgical precision. His partnership with Liesl Karlstadt produced some of the greatest comedy sketches in the German language." },
+    "best_bit": { "en": "'Der Firmling' (The Confirmand) - A classic sketch where a simple conversation about a family event spirals into complete logical chaos as Valentin's character misunderstands and reinterprets every statement. It is a masterpiece of escalating absurdity that needs no translation to be funny." },
+    "youtube_id": "",
+    "tags": ["legend", "absurdist", "european"]
+  },
+  {
+    "id": "comedian_008",
+    "name": "Rowan Atkinson",
+    "years": "1955-",
+    "origin": "United Kingdom",
+    "style": "Physical comedy, visual humor, character-based, silent comedy",
+    "bio": { "en": "Rowan Atkinson is a British actor and comedian who created two of the most iconic comedy characters in television history: the bumbling Edmund Blackadder and the virtually silent Mr. Bean. With a master's degree in electrical engineering from Oxford, Atkinson brings an engineer's precision to physical comedy. Mr. Bean has been watched by an estimated 1 billion people worldwide, proving that great physical comedy truly is a universal language." },
+    "famous_for": { "en": "Mr. Bean, a character who communicates almost entirely without words and has become one of the most recognized comedy figures on Earth. Also the brilliant historical satire of the Blackadder series." },
+    "best_bit": { "en": "'Mr. Bean at the Beach' and 'The Exam' - Classic Mr. Bean sketches that demonstrate Atkinson's genius for turning mundane situations into elaborate physical comedy set pieces. His ability to convey frustration, triumph, and cunning without speaking a word is unmatched." },
+    "youtube_id": "iXewBSfMAos",
+    "tags": ["physical-comedy", "universal", "iconic"]
+  },
+  {
+    "id": "comedian_009",
+    "name": "Jerry Seinfeld",
+    "years": "1954-",
+    "origin": "United States",
+    "style": "Observational, clean, precise craftsmanship, everyday absurdity",
+    "bio": { "en": "Jerry Seinfeld is an American comedian whose meticulous observational style helped define modern stand-up comedy. His sitcom 'Seinfeld', famously described as a show about nothing, became one of the most successful television series in history. Seinfeld is known for treating joke-writing as a craft, spending hours perfecting individual word choices and rhythms." },
+    "famous_for": { "en": "The sitcom 'Seinfeld', his perfectly constructed observational comedy about everyday annoyances, and 'Comedians in Cars Getting Coffee', a web series that became a cultural institution." },
+    "best_bit": { "en": "'I'm Telling You for the Last Time' (1998) - A Broadway special where Seinfeld performed his greatest hits one final time before retiring them forever. His bits about the futility of dry cleaning, the terror of public speaking, and the absurdity of Halloween costumes are comedy writing at its most refined." },
+    "youtube_id": "",
+    "tags": ["observational", "clean", "craftsman"]
+  },
+  {
+    "id": "comedian_010",
+    "name": "Gad Elmaleh",
+    "years": "1971-",
+    "origin": "Morocco / France",
+    "style": "Physical comedy, character-based, cross-cultural, bilingual",
+    "bio": { "en": "Gad Elmaleh is a Moroccan-French comedian who became one of the biggest comedy stars in the French-speaking world before making the extraordinary leap to performing stand-up in English in America. Born in Casablanca, raised between Morocco and France, and now working in the US, his comedy naturally bridges Arabic, French, and American cultures. He has been called the Jerry Seinfeld of France." },
+    "famous_for": { "en": "Being the biggest stand-up comedian in France for over a decade, then courageously starting over in English in the US. His physical comedy transcends language barriers, and his cross-cultural observations are both hilarious and insightful." },
+    "best_bit": { "en": "'American Dream' (2018) - His English-language Netflix special where he reflects on the absurdity of learning American culture from scratch, including the baffling ritual of tipping, the aggression of American friendliness, and the terror of performing comedy in your third language." },
+    "youtube_id": "",
+    "tags": ["cross-cultural", "bilingual", "physical-comedy"]
+  }
+]
