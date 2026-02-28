@@ -107,8 +107,8 @@ function _comedianCardHtml(c) {
     <div class="comedian-bio">${_loc(c.bio)}</div>
     <div class="comedian-famous"><strong>${_t('comedy.famous_for')}:</strong> ${_loc(c.famous_for)}</div>
     <div class="comedian-bit"><strong>${_t('comedy.best_bit')}:</strong> ${_loc(c.best_bit)}</div>
-    ${c.youtube_id ? `<a href="https://www.youtube.com/watch?v=${c.youtube_id}" target="_blank" rel="noopener" class="btn btn-secondary">\u25b6 Watch</a>` : ''}
     <div class="comedian-tags">${(c.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+    ${c.youtube_id ? `<a href="https://www.youtube.com/watch?v=${c.youtube_id}" target="_blank" rel="noopener" class="btn btn-secondary" style="margin-top:0.75rem">\u25b6 Watch</a>` : ''}
   </div>`;
 }
 

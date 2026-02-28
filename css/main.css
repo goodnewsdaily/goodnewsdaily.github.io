@@ -971,7 +971,7 @@ a.card {
     border-radius: 12px;
     font-size: 0.8rem;
     background: var(--gnd-bg);
-    color: var(--gnd-primary);
+    color: var(--gnd-secondary-dark);
     border: 1px solid var(--border-gray);
 }
 
