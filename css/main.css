@@ -51,8 +51,8 @@ body::-webkit-scrollbar {
    2. HEADER
    ========================================================================== */
 .header {
-    background: var(--gnd-primary);
-    color: var(--white);
+    background: #FFF176;
+    color: var(--text-dark);
     padding: 1rem 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     position: sticky;
@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--white);
+    color: var(--gnd-secondary-dark);
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
 }
 
 .nav a {
-    color: var(--white);
+    color: var(--text-dark);
     text-decoration: none;
     font-weight: 500;
     transition: opacity 0.3s;
