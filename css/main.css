@@ -1163,7 +1163,7 @@ a.card {
     height: 44px;
     border-radius: 50%;
     background: var(--gnd-secondary-dark);
-    color: var(--white);
+    color: var(--gnd-accent);
     border: none;
     font-size: 1.2rem;
     cursor: pointer;
