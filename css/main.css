@@ -1191,7 +1191,7 @@ a.card {
    18. FOOTER
    ========================================================================== */
 .footer {
-    background: var(--gnd-secondary-dark);
+    background: var(--gnd-secondary);
     color: var(--white);
     padding: 3rem 2rem 1.5rem;
     margin-top: 2rem;
