@@ -113,9 +113,9 @@ body::-webkit-scrollbar {
 
 /* Language Switcher */
 .lang-select {
-    background: rgba(255,255,255,0.2);
+    background: var(--gnd-secondary);
     color: var(--white);
-    border: 1px solid rgba(255,255,255,0.4);
+    border: 1px solid var(--gnd-secondary-dark);
     padding: 0.3rem 0.5rem;
     border-radius: 4px;
     font-size: 0.9rem;
