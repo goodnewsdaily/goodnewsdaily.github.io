@@ -107,7 +107,7 @@ body::-webkit-scrollbar {
 }
 
 .nav a.active {
-    border-bottom: 2px solid var(--gnd-accent);
+    border-bottom: 2px solid var(--gnd-secondary-dark);
     padding-bottom: 2px;
 }
 
