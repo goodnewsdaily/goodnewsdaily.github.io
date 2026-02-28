@@ -139,8 +139,8 @@ body {
    3. HERO SECTION (Sunrise Gradient)
    ========================================================================== */
 .hero {
-    background: linear-gradient(to bottom, var(--gnd-primary) 0%, var(--white) 100%);
-    color: var(--text-dark);
+    background: linear-gradient(to bottom, var(--gnd-primary) 0%, var(--gnd-secondary) 100%);
+    color: var(--white);
     padding: 4rem 2rem;
     text-align: center;
     position: relative;
@@ -205,7 +205,7 @@ body {
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
 }
 
 .section-subtitle {
@@ -1061,7 +1061,7 @@ a.card {
 .home-section-header h2 {
     font-size: 1.5rem;
     font-weight: 500;
-    color: var(--gnd-dark);
+    color: var(--gnd-secondary-dark);
 }
 
 .home-section-header a {
