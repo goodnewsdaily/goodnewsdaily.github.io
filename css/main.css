@@ -13,9 +13,9 @@
 }
 
 :root {
-    --gnd-primary: #FF6B35;
-    --gnd-dark: #D4521E;
-    --gnd-light: #FF8F66;
+    --gnd-primary: #FFD700;
+    --gnd-dark: #E6C200;
+    --gnd-light: #FFE44D;
     --gnd-secondary: #0077BE;
     --gnd-secondary-dark: #005A8E;
     --gnd-accent: #FFD700;
@@ -24,7 +24,7 @@
     --text-gray: #555;
     --white: #ffffff;
     --border-gray: #e0e0e0;
-    --hover-tint: #FFF0E6;
+    --hover-tint: #FFFDE6;
     --header-h: 56px;
 
     /* Category colors */
@@ -48,7 +48,7 @@ body {
    ========================================================================== */
 .header {
     background: var(--gnd-primary);
-    color: var(--white);
+    color: var(--gnd-secondary-dark);
     padding: 1rem 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     position: sticky;
@@ -69,7 +69,7 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--white);
+    color: var(--gnd-secondary-dark);
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -92,7 +92,7 @@ body {
 }
 
 .nav a {
-    color: var(--white);
+    color: var(--gnd-secondary-dark);
     text-decoration: none;
     font-weight: 500;
     transition: opacity 0.3s;
@@ -109,9 +109,9 @@ body {
 
 /* Language Switcher */
 .lang-select {
-    background: rgba(255,255,255,0.2);
-    color: var(--white);
-    border: 1px solid rgba(255,255,255,0.4);
+    background: rgba(0,90,142,0.1);
+    color: var(--gnd-secondary-dark);
+    border: 1px solid rgba(0,90,142,0.3);
     padding: 0.3rem 0.5rem;
     border-radius: 4px;
     font-size: 0.9rem;
@@ -129,7 +129,7 @@ body {
     display: none;
     background: none;
     border: none;
-    color: var(--white);
+    color: var(--gnd-secondary-dark);
     font-size: 1.5rem;
     cursor: pointer;
     padding: 0.25rem;
