@@ -13,9 +13,9 @@
 }
 
 :root {
-    --gnd-primary: #FFD700;
-    --gnd-dark: #E6C200;
-    --gnd-light: #FFE44D;
+    --gnd-primary: #DAA520;
+    --gnd-dark: #B8860B;
+    --gnd-light: #E8C547;
     --gnd-secondary: #0077BE;
     --gnd-secondary-dark: #005A8E;
     --gnd-accent: #FFD700;
@@ -1066,7 +1066,7 @@ a.card {
 
 .home-section-header a {
     font-size: 0.9rem;
-    color: var(--gnd-primary);
+    color: var(--gnd-secondary-dark);
     text-decoration: none;
     font-weight: 600;
     transition: color 0.2s;
