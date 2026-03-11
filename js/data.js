@@ -75,11 +75,23 @@ const Data = (() => {
     return ['wordplay', 'observational', 'one-liners', 'life'];
   }
 
+  // Monthly updates (auto-hides entries older than 2 months)
+  const _updates = [
+    { id: 'mar2026', date: '2026-03-01', icon: '\u2600\uFE0F', titleKey: 'updates.mar2026.title', descKey: 'updates.mar2026.desc' }
+  ];
+
+  function getUpdates() {
+    const now = new Date();
+    const cutoff = new Date(now.getFullYear(), now.getMonth() - 2, 1);
+    return _updates.filter(u => new Date(u.date) >= cutoff);
+  }
+
   return {
     init,
     getNews, getNewsByCategory, getLatestNews, getNewsCategories,
     getMusic, getMusicByRegion, getMusicRegions,
     getComedians,
-    getJokes, getJokesByCategory, getRandomJoke, getJokeCategories
+    getJokes, getJokesByCategory, getRandomJoke, getJokeCategories,
+    getUpdates
   };
 })();

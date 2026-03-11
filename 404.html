@@ -3,15 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoodNewsDaily — Good News. Great Music. Real Laughs.</title>
-    <meta name="description" content="The antidote to doomscrolling. Positive stories from around the world, feel-good music, and humor that actually makes you smile.">
-    <meta property="og:title" content="GoodNewsDaily — Good News. Great Music. Real Laughs.">
-    <meta property="og:description" content="The antidote to doomscrolling. Positive stories from around the world, feel-good music, and humor that actually makes you smile.">
+    <title>Page Not Found — GoodNewsDaily</title>
+    <meta name="description" content="The page you're looking for doesn't exist on GoodNewsDaily.">
+    <meta property="og:title" content="Page Not Found — GoodNewsDaily">
+    <meta property="og:description" content="The page you're looking for doesn't exist on GoodNewsDaily.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://goodnewsdaily.github.io/">
+    <meta property="og:url" content="https://goodnewsdaily.github.io/404.html">
     <meta property="og:image" content="https://goodnewsdaily.github.io/img/og-preview.png">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <style>
+        .error-section {
+            text-align: center;
+            padding: 4rem 1rem;
+            min-height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: 800;
+            color: #4CAF50;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .error-title {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 500px;
+            margin-bottom: 2rem;
+        }
+        .error-home {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background: #4CAF50;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .error-home:hover {
+            opacity: 0.9;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -31,30 +73,13 @@
         </div>
     </header>
 
-    <section class="hero">
-        <h1 data-i18n="hero.title">Good News. Great Music. Real Laughs.</h1>
-        <p class="hero-stats" id="hero-stats"></p>
-        <p data-i18n="hero.subtitle">The antidote to doomscrolling. Positive stories from around the world, feel-good music, and humor that actually makes you smile.</p>
-    </section>
-
     <div class="container">
-        <div id="whats-new-wrap"></div>
-    </div>
-
-    <div class="container">
-        <section class="home-section">
-            <div class="home-section-header">
-                <h2 data-i18n="index.latest_news">Latest Good News</h2>
-                <a href="news.html" data-i18n="index.see_all_news">See All News &rarr;</a>
-            </div>
-            <div class="cards-grid grid-3" id="latest-news-cards"></div>
-        </section>
-
-        <section class="home-section" id="joke-of-day-box"></section>
-
-        <section class="home-section" id="music-pick-box"></section>
-
-        <section class="home-section" id="comedian-spotlight-box"></section>
+        <div class="error-section">
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-message">Sorry, the page you are looking for doesn't exist or has been moved. Let's get you back on track.</p>
+            <a href="index.html" class="error-home">Back to Home</a>
+        </div>
     </div>
 
     <footer class="footer">
@@ -128,11 +153,5 @@
       }, 1500);
     })();
     </script>
-<button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll to top">&#9650;</button>
-<script>
-const stb=document.getElementById("scroll-top-btn");
-window.addEventListener("scroll",()=>{stb.classList.toggle("visible",window.scrollY>300)});
-stb.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
-</script>
 </body>
 </html>

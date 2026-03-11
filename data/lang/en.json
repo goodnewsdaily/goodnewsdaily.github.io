@@ -96,5 +96,10 @@
   "lang.zh": "\u4e2d\u6587",
   "lang.ja": "\u65e5\u672c\u8a9e",
   "lang.ar": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
-  "lang.hi": "\u0939\u093f\u0928\u094d\u0926\u0940"
+  "lang.hi": "\u0939\u093f\u0928\u094d\u0926\u0940",
+
+  "updates.title": "What's New",
+  "updates.subtitle": "Latest additions and improvements",
+  "updates.mar2026.title": "Site Launch",
+  "updates.mar2026.desc": "GoodNewsDaily is live — positive news, feel-good music, and humor to brighten your day."
 }
