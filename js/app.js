@@ -78,8 +78,8 @@ function _newsCardHtml(story) {
 
 /* ========== MUSIC CARD ========== */
 function _musicCardHtml(pick) {
-  const embed = pick.youtube_id
-    ? `<div class="music-embed"><iframe src="https://www.youtube.com/embed/${pick.youtube_id}" title="${pick.title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`
+  const thumb = pick.youtube_id
+    ? `<a href="https://www.youtube.com/watch?v=${pick.youtube_id}" target="_blank" rel="noopener" class="music-thumb"><img src="https://img.youtube.com/vi/${pick.youtube_id}/hqdefault.jpg" alt="${pick.title}" loading="lazy"><span class="music-play-icon">\u25B6</span></a>`
     : '';
   return `<div class="music-card">
     <div class="music-card-header">
@@ -87,7 +87,7 @@ function _musicCardHtml(pick) {
       <div class="music-card-artist">${pick.artist} · ${pick.year}</div>
       <div class="music-card-genre">${pick.genre}</div>
     </div>
-    ${embed}
+    ${thumb}
     <div class="music-card-why">${_loc(pick.why_listen)}</div>
     <div class="music-card-tags">${(pick.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}</div>
   </div>`;
