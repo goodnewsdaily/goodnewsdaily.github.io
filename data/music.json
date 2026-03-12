@@ -163,5 +163,170 @@
     "why_listen": { "en": "Fairuz's crystalline voice is the sound of Lebanon and the entire Arab world waking up in the morning. This song is gentle, hopeful, and profoundly beautiful." },
     "youtube_id": "Briw30_4PRM",
     "tags": ["classic", "morning-music", "legendary"]
+  },
+  {
+    "id": "music_016",
+    "title": "Happy",
+    "artist": "Pharrell Williams",
+    "year": 2013,
+    "region": "north-america",
+    "genre": "Pop / Soul",
+    "why_listen": { "en": "An irresistibly upbeat anthem that became the soundtrack to smiles worldwide. Its sunny groove and hand-clapping energy make it impossible not to dance along." },
+    "youtube_id": "y6Sxv-sUYtM",
+    "tags": ["upbeat", "dance", "feel-good"]
+  },
+  {
+    "id": "music_017",
+    "title": "Dynamite",
+    "artist": "BTS",
+    "year": 2020,
+    "region": "asia",
+    "genre": "Disco Pop",
+    "why_listen": { "en": "BTS delivered a burst of pure joy with this retro-disco bop that broke YouTube records overnight. It radiates positivity and the thrill of letting loose on the dance floor." },
+    "youtube_id": "gdZLi9oWNZg",
+    "tags": ["k-pop", "disco", "uplifting"]
+  },
+  {
+    "id": "music_018",
+    "title": "Waka Waka (This Time for Africa)",
+    "artist": "Shakira ft. Freshlyground",
+    "year": 2010,
+    "region": "latin-america",
+    "genre": "Afro-Pop / Latin",
+    "why_listen": { "en": "The 2010 FIFA World Cup anthem blends Shakira's Latin fire with South African rhythms into a universal celebration of togetherness." },
+    "youtube_id": "pRpeEdMmmQ0",
+    "tags": ["world-cup", "dance", "celebration"]
+  },
+  {
+    "id": "music_019",
+    "title": "Rather Be",
+    "artist": "Clean Bandit ft. Jess Glynne",
+    "year": 2014,
+    "region": "europe",
+    "genre": "Electronic / Pop",
+    "why_listen": { "en": "A shimmering blend of classical strings and electronic beats that feels like a warm embrace. Its message of contentment and love has made it one of the decade's most beloved pop songs." },
+    "youtube_id": "m-M1AtrxztU",
+    "tags": ["electronic", "uplifting", "love"]
+  },
+  {
+    "id": "music_020",
+    "title": "Cheap Thrills",
+    "artist": "Sia",
+    "year": 2016,
+    "region": "oceania",
+    "genre": "Dance Pop / Reggae",
+    "why_listen": { "en": "Sia proves you don't need money to have a great night out. This reggae-tinged dance anthem is pure, carefree fun that gets everyone moving." },
+    "youtube_id": "31crA53Dgu0",
+    "tags": ["dance", "carefree", "pop"]
+  },
+  {
+    "id": "music_021",
+    "title": "Can't Stop the Feeling!",
+    "artist": "Justin Timberlake",
+    "year": 2016,
+    "region": "north-america",
+    "genre": "Disco Pop / Funk",
+    "why_listen": { "en": "This feel-good anthem captures the pure joy of music making your body move. Its infectious groove earned an Oscar nomination and billions of smiles." },
+    "youtube_id": "ru0K8uYEZWw",
+    "tags": ["funk", "joyful", "dance"]
+  },
+  {
+    "id": "music_022",
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "year": 2014,
+    "region": "north-america",
+    "genre": "Funk / Pop",
+    "why_listen": { "en": "A retro funk explosion that dominated the 2010s with swagger and style. Bruno Mars channels the spirit of James Brown and Prince into a modern anthem that never fails to ignite a party." },
+    "youtube_id": "OPf0YbXqDm0",
+    "tags": ["funk", "retro", "party"]
+  },
+  {
+    "id": "music_023",
+    "title": "How You Like That",
+    "artist": "BLACKPINK",
+    "year": 2020,
+    "region": "asia",
+    "genre": "K-Pop / EDM",
+    "why_listen": { "en": "BLACKPINK's empowering comeback anthem is all about rising after a fall with fierce confidence. Its explosive beat drops and bold energy make it the ultimate pick-me-up." },
+    "youtube_id": "ioNng23DkIM",
+    "tags": ["k-pop", "empowering", "energy"]
+  },
+  {
+    "id": "music_024",
+    "title": "Oye Como Va",
+    "artist": "Santana",
+    "year": 1970,
+    "region": "latin-america",
+    "genre": "Latin Rock",
+    "why_listen": { "en": "Carlos Santana turned Tito Puente's mambo classic into a sizzling Latin rock masterpiece. Its hypnotic guitar riffs and irresistible rhythm have kept people grooving for over 50 years." },
+    "youtube_id": "8NsJ84YV1oA",
+    "tags": ["latin-rock", "classic", "groovy"]
+  },
+  {
+    "id": "music_025",
+    "title": "Poi E",
+    "artist": "Patea Maori Club",
+    "year": 1984,
+    "region": "oceania",
+    "genre": "Maori Pop / Synth-pop",
+    "why_listen": { "en": "New Zealand's most beloved pop song is sung entirely in te reo Maori and fuses traditional chanting with 80s synth-pop. Pure Kiwi joy and a triumphant celebration of indigenous culture." },
+    "youtube_id": "tq2K8ak47nM",
+    "tags": ["maori", "cultural-pride", "classic"]
+  },
+  {
+    "id": "music_026",
+    "title": "Jerusalema",
+    "artist": "Master KG ft. Nomcebo Zikode",
+    "year": 2019,
+    "region": "africa",
+    "genre": "Afro-House / Gospel",
+    "why_listen": { "en": "This South African house anthem sparked a global dance challenge that united millions during the pandemic. Its uplifting Zulu vocals and driving beat are a testament to music's healing power." },
+    "youtube_id": "fCZVL_8D048",
+    "tags": ["afro-house", "dance-challenge", "uplifting"]
+  },
+  {
+    "id": "music_027",
+    "title": "Bamboleo",
+    "artist": "Gipsy Kings",
+    "year": 1987,
+    "region": "europe",
+    "genre": "Flamenco Pop / Rumba",
+    "why_listen": { "en": "The Gipsy Kings brought fiery Romani flamenco to the global stage with this unstoppable party anthem. Its passionate guitar strumming and handclaps radiate pure Mediterranean sunshine." },
+    "youtube_id": "8dQUyCkxVI4",
+    "tags": ["flamenco", "party", "mediterranean"]
+  },
+  {
+    "id": "music_028",
+    "title": "7 Seconds",
+    "artist": "Youssou N'Dour & Neneh Cherry",
+    "year": 1994,
+    "region": "africa",
+    "genre": "Afro-Pop / World",
+    "why_listen": { "en": "A breathtakingly beautiful duet about innocence and hope that transcends language and borders. Youssou N'Dour's soaring Wolof vocals alongside Neneh Cherry create a timeless message of unity." },
+    "youtube_id": "wqCpjFMvz-k",
+    "tags": ["duet", "hopeful", "cross-cultural"]
+  },
+  {
+    "id": "music_029",
+    "title": "Tamally Maak",
+    "artist": "Amr Diab",
+    "year": 2000,
+    "region": "middle-east",
+    "genre": "Arabic Pop",
+    "why_listen": { "en": "Named the best Arabic pop song of the 21st century, this Egyptian classic wraps tender romance in a warm Mediterranean melody. Its gentle guitar and heartfelt vocals feel like a love letter to life." },
+    "youtube_id": "EgmXTmj62ic",
+    "tags": ["arabic-pop", "romantic", "timeless"]
+  },
+  {
+    "id": "music_030",
+    "title": "Lambada",
+    "artist": "Kaoma",
+    "year": 1989,
+    "region": "latin-america",
+    "genre": "Lambada / World Pop",
+    "why_listen": { "en": "This Brazilian-French fusion became the soundtrack of summer 1989, topping charts in over 15 countries. Its swirling melody and irresistible tropical rhythm will have you swaying in seconds." },
+    "youtube_id": "iyLdoQGBchQ",
+    "tags": ["tropical", "dance", "80s-classic"]
   }
 ]
