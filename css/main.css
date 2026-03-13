@@ -1711,6 +1711,29 @@ a.card {
 }
 .btn-accent:hover { transform: translateY(-2px); box-shadow: 0 5px 20px rgba(255,107,53,0.4); }
 
+/* Card images (news + comedian) */
+.card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    display: block;
+}
+.comedian-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    display: block;
+    margin: -1.5rem -1.5rem 1rem -1.5rem;
+    width: calc(100% + 3rem);
+}
+.news-card .card-img {
+    margin: -1.5rem -1.5rem 0.75rem -1.5rem;
+    width: calc(100% + 3rem);
+    border-radius: 10px 10px 0 0;
+}
+
 /* RTL additions for app.js classes */
 [dir="rtl"] .news-card { border-left: 1px solid var(--border-gray); border-right: 4px solid var(--gnd-primary); }
 [dir="rtl"] .news-card-matters { border-left: none; border-right: 4px solid var(--gnd-accent); border-radius: 8px 0 0 8px; }

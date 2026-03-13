@@ -1,362 +1,692 @@
 [
   {
     "id": "peace_001",
-    "emoji": "\u2694\ufe0f\u27a1\ufe0f\ud83d\udd4a\ufe0f",
-    "title": { "en": "Colombia's Total Peace Policy Leads to Ceasefire with ELN Rebels" },
+    "emoji": "⚔️➡️🕊️",
+    "title": {
+      "en": "Colombia's Total Peace Policy Leads to Ceasefire with ELN Rebels"
+    },
     "category": "peace",
     "date": "2024-10-15",
     "source": "Reuters",
     "source_url": "",
-    "summary": { "en": "Colombia's government and the ELN guerrilla group agreed to a nationwide ceasefire as part of President Petro's ambitious Total Peace policy. The agreement marked a significant step toward ending six decades of armed conflict in the country." },
-    "why_it_matters": { "en": "After 60 years of conflict, every ceasefire brings Colombia closer to lasting peace and stability for millions of displaced families." },
-    "tags": ["ceasefire", "colombia", "diplomacy"]
+    "summary": {
+      "en": "Colombia's government and the ELN guerrilla group agreed to a nationwide ceasefire as part of President Petro's ambitious Total Peace policy. The agreement marked a significant step toward ending six decades of armed conflict in the country."
+    },
+    "why_it_matters": {
+      "en": "After 60 years of conflict, every ceasefire brings Colombia closer to lasting peace and stability for millions of displaced families."
+    },
+    "tags": [
+      "ceasefire",
+      "colombia",
+      "diplomacy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Treron_vernans_male_-_Kent_Ridge_Park.jpg/1920px-Treron_vernans_male_-_Kent_Ridge_Park.jpg"
   },
   {
     "id": "peace_002",
-    "emoji": "\ud83e\udd1d",
-    "title": { "en": "Ethiopia's Tigray Peace Agreement Holds as Aid Flows Resume" },
+    "emoji": "🤝",
+    "title": {
+      "en": "Ethiopia's Tigray Peace Agreement Holds as Aid Flows Resume"
+    },
     "category": "peace",
     "date": "2024-03-12",
     "source": "BBC News",
     "source_url": "",
-    "summary": { "en": "The November 2022 Cessation of Hostilities Agreement between the Ethiopian government and Tigray forces continued to hold through 2024. Humanitarian aid deliveries resumed at scale, reaching millions of people in desperate need of food and medical supplies." },
-    "why_it_matters": { "en": "The successful implementation of this peace deal shows that even the most brutal conflicts can find a path to resolution through negotiation." },
-    "tags": ["ethiopia", "tigray", "humanitarian-aid"]
+    "summary": {
+      "en": "The November 2022 Cessation of Hostilities Agreement between the Ethiopian government and Tigray forces continued to hold through 2024. Humanitarian aid deliveries resumed at scale, reaching millions of people in desperate need of food and medical supplies."
+    },
+    "why_it_matters": {
+      "en": "The successful implementation of this peace deal shows that even the most brutal conflicts can find a path to resolution through negotiation."
+    },
+    "tags": [
+      "ethiopia",
+      "tigray",
+      "humanitarian-aid"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/VOA_Tigray_Children2.jpg"
   },
   {
     "id": "peace_003",
-    "emoji": "\ud83c\udf0d",
-    "title": { "en": "Global Nuclear Disarmament Treaty Gains Momentum with New Signatories" },
+    "emoji": "🌍",
+    "title": {
+      "en": "Global Nuclear Disarmament Treaty Gains Momentum with New Signatories"
+    },
     "category": "peace",
     "date": "2024-06-20",
     "source": "UN News",
     "source_url": "",
-    "summary": { "en": "The Treaty on the Prohibition of Nuclear Weapons passed 70 state parties in 2024, gaining significant momentum as several new nations ratified the agreement. Civil society organizations celebrated the milestone as a step toward a nuclear-weapon-free world." },
-    "why_it_matters": { "en": "Every new signatory strengthens the global norm against nuclear weapons and brings the world closer to eliminating the greatest existential threat to humanity." },
-    "tags": ["nuclear-disarmament", "united-nations", "treaty"]
+    "summary": {
+      "en": "The Treaty on the Prohibition of Nuclear Weapons passed 70 state parties in 2024, gaining significant momentum as several new nations ratified the agreement. Civil society organizations celebrated the milestone as a step toward a nuclear-weapon-free world."
+    },
+    "why_it_matters": {
+      "en": "Every new signatory strengthens the global norm against nuclear weapons and brings the world closer to eliminating the greatest existential threat to humanity."
+    },
+    "tags": [
+      "nuclear-disarmament",
+      "united-nations",
+      "treaty"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Treaty_on_the_Prohibition_of_Nuclear_Weapons_members.svg/3840px-Treaty_on_the_Prohibition_of_Nuclear_Weapons_members.svg.png"
   },
   {
     "id": "peace_004",
-    "emoji": "\ud83d\udcda",
-    "title": { "en": "UNESCO Reports Record Number of Countries Investing in Peace Education" },
+    "emoji": "📚",
+    "title": {
+      "en": "UNESCO Reports Record Number of Countries Investing in Peace Education"
+    },
     "category": "peace",
     "date": "2024-09-21",
     "source": "UNESCO",
     "source_url": "",
-    "summary": { "en": "UNESCO's 2024 Global Education Monitoring Report found that a record 67 countries had integrated peace education into their national curricula. Programs teaching conflict resolution, empathy, and intercultural dialogue are now reaching over 200 million students worldwide." },
-    "why_it_matters": { "en": "Teaching peace to the next generation is the most sustainable investment in a less violent future." },
-    "tags": ["education", "peace-building", "youth"]
+    "summary": {
+      "en": "UNESCO's 2024 Global Education Monitoring Report found that a record 67 countries had integrated peace education into their national curricula. Programs teaching conflict resolution, empathy, and intercultural dialogue are now reaching over 200 million students worldwide."
+    },
+    "why_it_matters": {
+      "en": "Teaching peace to the next generation is the most sustainable investment in a less violent future."
+    },
+    "tags": [
+      "education",
+      "peace-building",
+      "youth"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Treron_vernans_male_-_Kent_Ridge_Park.jpg/1920px-Treron_vernans_male_-_Kent_Ridge_Park.jpg"
   },
   {
     "id": "peace_005",
-    "emoji": "\ud83c\udff3\ufe0f",
-    "title": { "en": "Azerbaijan and Armenia Reach Framework Agreement on Peace Treaty" },
+    "emoji": "🏳️",
+    "title": {
+      "en": "Azerbaijan and Armenia Reach Framework Agreement on Peace Treaty"
+    },
     "category": "peace",
     "date": "2024-07-18",
     "source": "Al Jazeera",
     "source_url": "",
-    "summary": { "en": "After decades of conflict over the Nagorno-Karabakh region, Azerbaijan and Armenia made significant progress toward a comprehensive peace treaty in 2024. Both sides agreed on key framework principles including mutual recognition of territorial integrity and the opening of transport corridors." },
-    "why_it_matters": { "en": "This historic rapprochement between long-standing adversaries demonstrates that diplomacy can overcome even the most entrenched territorial disputes." },
-    "tags": ["south-caucasus", "diplomacy", "territorial-dispute"]
+    "summary": {
+      "en": "After decades of conflict over the Nagorno-Karabakh region, Azerbaijan and Armenia made significant progress toward a comprehensive peace treaty in 2024. Both sides agreed on key framework principles including mutual recognition of territorial integrity and the opening of transport corridors."
+    },
+    "why_it_matters": {
+      "en": "This historic rapprochement between long-standing adversaries demonstrates that diplomacy can overcome even the most entrenched territorial disputes."
+    },
+    "tags": [
+      "south-caucasus",
+      "diplomacy",
+      "territorial-dispute"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Armenia_Azerbaijan_Locator.svg/960px-Armenia_Azerbaijan_Locator.svg.png"
   },
   {
     "id": "science_001",
-    "emoji": "\u2b50",
-    "title": { "en": "National Ignition Facility Achieves Repeated Fusion Ignition" },
+    "emoji": "⭐",
+    "title": {
+      "en": "National Ignition Facility Achieves Repeated Fusion Ignition"
+    },
     "category": "science",
     "date": "2024-02-12",
     "source": "Nature",
     "source_url": "",
-    "summary": { "en": "Scientists at the National Ignition Facility at Lawrence Livermore National Laboratory successfully replicated fusion ignition multiple times in 2024, building on their historic 2022 breakthrough. Each experiment produced more energy from fusion reactions than the laser energy delivered to the target." },
-    "why_it_matters": { "en": "Repeated fusion ignition moves humanity closer to virtually unlimited clean energy, which could transform civilization." },
-    "tags": ["fusion-energy", "physics", "clean-energy"]
+    "summary": {
+      "en": "Scientists at the National Ignition Facility at Lawrence Livermore National Laboratory successfully replicated fusion ignition multiple times in 2024, building on their historic 2022 breakthrough. Each experiment produced more energy from fusion reactions than the laser energy delivered to the target."
+    },
+    "why_it_matters": {
+      "en": "Repeated fusion ignition moves humanity closer to virtually unlimited clean energy, which could transform civilization."
+    },
+    "tags": [
+      "fusion-energy",
+      "physics",
+      "clean-energy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Exterior_patio_of_the_National_Ignition_Facility.jpg"
   },
   {
     "id": "science_002",
-    "emoji": "\ud83d\udd2d",
-    "title": { "en": "James Webb Space Telescope Discovers New Earth-Like Exoplanets with Possible Atmospheres" },
+    "emoji": "🔭",
+    "title": {
+      "en": "James Webb Space Telescope Discovers New Earth-Like Exoplanets with Possible Atmospheres"
+    },
     "category": "science",
     "date": "2024-05-08",
     "source": "NASA",
     "source_url": "",
-    "summary": { "en": "NASA's James Webb Space Telescope detected signs of an atmosphere on a rocky exoplanet orbiting within a star's habitable zone. The discovery marked the first time astronomers could confirm atmospheric composition on a potentially Earth-like world beyond our solar system." },
-    "why_it_matters": { "en": "Finding atmospheres on rocky exoplanets is a crucial step toward answering whether we are alone in the universe." },
-    "tags": ["space", "exoplanets", "jwst"]
+    "summary": {
+      "en": "NASA's James Webb Space Telescope detected signs of an atmosphere on a rocky exoplanet orbiting within a star's habitable zone. The discovery marked the first time astronomers could confirm atmospheric composition on a potentially Earth-like world beyond our solar system."
+    },
+    "why_it_matters": {
+      "en": "Finding atmospheres on rocky exoplanets is a crucial step toward answering whether we are alone in the universe."
+    },
+    "tags": [
+      "space",
+      "exoplanets",
+      "jwst"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/JWST_spacecraft_model_3.png"
   },
   {
     "id": "science_003",
-    "emoji": "\ud83e\uddec",
-    "title": { "en": "AlphaFold 3 Predicts Structures of All Life's Molecules, Not Just Proteins" },
+    "emoji": "🧬",
+    "title": {
+      "en": "AlphaFold 3 Predicts Structures of All Life's Molecules, Not Just Proteins"
+    },
     "category": "science",
     "date": "2024-05-09",
     "source": "Nature",
     "source_url": "",
-    "summary": { "en": "Google DeepMind unveiled AlphaFold 3, which can predict the structure and interactions of all biological molecules including proteins, DNA, RNA, and ligands. The tool dramatically accelerates drug discovery and our understanding of molecular biology." },
-    "why_it_matters": { "en": "Understanding how all of life's molecules interact opens the door to faster cures and a deeper understanding of biology itself." },
-    "tags": ["ai", "biology", "drug-discovery"]
+    "summary": {
+      "en": "Google DeepMind unveiled AlphaFold 3, which can predict the structure and interactions of all biological molecules including proteins, DNA, RNA, and ligands. The tool dramatically accelerates drug discovery and our understanding of molecular biology."
+    },
+    "why_it_matters": {
+      "en": "Understanding how all of life's molecules interact opens the door to faster cures and a deeper understanding of biology itself."
+    },
+    "tags": [
+      "ai",
+      "biology",
+      "drug-discovery"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Protein-structure.png"
   },
   {
     "id": "science_004",
-    "emoji": "\ud83e\udde0",
-    "title": { "en": "First Brain-Computer Interface Allows Paralyzed Patient to Control Computer with Thoughts" },
+    "emoji": "🧠",
+    "title": {
+      "en": "First Brain-Computer Interface Allows Paralyzed Patient to Control Computer with Thoughts"
+    },
     "category": "science",
     "date": "2024-03-20",
     "source": "The New York Times",
     "source_url": "",
-    "summary": { "en": "Neuralink's first human patient, Noland Arbaugh, demonstrated the ability to control a computer cursor and play video games using only his thoughts. The quadriplegic patient described the brain-computer interface as life-changing, allowing him to interact with technology independently for the first time in years." },
-    "why_it_matters": { "en": "Brain-computer interfaces could restore independence and communication for millions of people living with paralysis worldwide." },
-    "tags": ["neuroscience", "bci", "accessibility"]
+    "summary": {
+      "en": "Neuralink's first human patient, Noland Arbaugh, demonstrated the ability to control a computer cursor and play video games using only his thoughts. The quadriplegic patient described the brain-computer interface as life-changing, allowing him to interact with technology independently for the first time in years."
+    },
+    "why_it_matters": {
+      "en": "Brain-computer interfaces could restore independence and communication for millions of people living with paralysis worldwide."
+    },
+    "tags": [
+      "neuroscience",
+      "bci",
+      "accessibility"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Photograph-by-mikeCaiChen.jpg"
   },
   {
     "id": "science_005",
-    "emoji": "\ud83d\udc0b",
-    "title": { "en": "Scientists Decode Sperm Whale Communication Revealing Complex Phonetic Alphabet" },
+    "emoji": "🐋",
+    "title": {
+      "en": "Scientists Decode Sperm Whale Communication Revealing Complex Phonetic Alphabet"
+    },
     "category": "science",
     "date": "2024-05-07",
     "source": "Nature",
     "source_url": "",
-    "summary": { "en": "Researchers from Project CETI used machine learning to analyze sperm whale clicks and discovered they use a combinatorial phonetic alphabet far more complex than previously thought. The whales combine basic click patterns into a vast repertoire of distinct vocalizations, suggesting a structured communication system." },
-    "why_it_matters": { "en": "Understanding animal communication could fundamentally change how we relate to other intelligent species on our planet." },
-    "tags": ["marine-biology", "animal-communication", "ai"]
+    "summary": {
+      "en": "Researchers from Project CETI used machine learning to analyze sperm whale clicks and discovered they use a combinatorial phonetic alphabet far more complex than previously thought. The whales combine basic click patterns into a vast repertoire of distinct vocalizations, suggesting a structured communication system."
+    },
+    "why_it_matters": {
+      "en": "Understanding animal communication could fundamentally change how we relate to other intelligent species on our planet."
+    },
+    "tags": [
+      "marine-biology",
+      "animal-communication",
+      "ai"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mother_and_baby_sperm_whale.jpg/3840px-Mother_and_baby_sperm_whale.jpg"
   },
   {
     "id": "env_001",
-    "emoji": "\u2600\ufe0f",
-    "title": { "en": "Global Renewable Energy Capacity Hits Record 510 GW Added in 2024" },
+    "emoji": "☀️",
+    "title": {
+      "en": "Global Renewable Energy Capacity Hits Record 510 GW Added in 2024"
+    },
     "category": "environment",
     "date": "2024-12-15",
     "source": "International Energy Agency",
     "source_url": "",
-    "summary": { "en": "The world added a record 510 gigawatts of renewable energy capacity in 2024, led by massive solar panel installations in China, Europe, and the United States. Renewables now account for over 30% of global electricity generation for the first time in history." },
-    "why_it_matters": { "en": "The renewable energy transition is accelerating faster than anyone predicted, making a clean energy future increasingly inevitable." },
-    "tags": ["solar", "renewable-energy", "climate"]
+    "summary": {
+      "en": "The world added a record 510 gigawatts of renewable energy capacity in 2024, led by massive solar panel installations in China, Europe, and the United States. Renewables now account for over 30% of global electricity generation for the first time in history."
+    },
+    "why_it_matters": {
+      "en": "The renewable energy transition is accelerating faster than anyone predicted, making a clean energy future increasingly inevitable."
+    },
+    "tags": [
+      "solar",
+      "renewable-energy",
+      "climate"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Andasol_Guadix_4.jpg"
   },
   {
     "id": "env_002",
-    "emoji": "\ud83d\udc3b",
-    "title": { "en": "Giant Panda Downgraded from 'Vulnerable' as Population Continues to Grow" },
+    "emoji": "🐻",
+    "title": {
+      "en": "Giant Panda Downgraded from 'Vulnerable' as Population Continues to Grow"
+    },
     "category": "environment",
     "date": "2024-08-22",
     "source": "WWF",
     "source_url": "",
-    "summary": { "en": "China's wild giant panda population continued its remarkable recovery, with numbers exceeding 1,900 individuals across 67 nature reserves. Decades of habitat restoration and breeding programs have turned one of conservation's greatest success stories into an enduring triumph." },
-    "why_it_matters": { "en": "The panda's recovery proves that sustained conservation investment works, giving hope for other endangered species." },
-    "tags": ["conservation", "wildlife", "china"]
+    "summary": {
+      "en": "China's wild giant panda population continued its remarkable recovery, with numbers exceeding 1,900 individuals across 67 nature reserves. Decades of habitat restoration and breeding programs have turned one of conservation's greatest success stories into an enduring triumph."
+    },
+    "why_it_matters": {
+      "en": "The panda's recovery proves that sustained conservation investment works, giving hope for other endangered species."
+    },
+    "tags": [
+      "conservation",
+      "wildlife",
+      "china"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/3840px-Grosser_Panda.JPG"
   },
   {
     "id": "env_003",
-    "emoji": "\ud83c\udf33",
-    "title": { "en": "Great Green Wall Initiative Restores 20 Million Hectares Across Africa's Sahel" },
+    "emoji": "🌳",
+    "title": {
+      "en": "Great Green Wall Initiative Restores 20 Million Hectares Across Africa's Sahel"
+    },
     "category": "environment",
     "date": "2024-06-05",
     "source": "UNCCD",
     "source_url": "",
-    "summary": { "en": "The Great Green Wall, Africa's ambitious project to grow an 8,000-km wall of trees across the Sahel, surpassed 20 million hectares of restored land. The initiative has improved food security for millions, created hundreds of thousands of jobs, and sequestered significant amounts of carbon." },
-    "why_it_matters": { "en": "This massive reforestation effort shows that humanity can reverse desertification and build climate resilience at continental scale." },
-    "tags": ["reforestation", "africa", "desertification"]
+    "summary": {
+      "en": "The Great Green Wall, Africa's ambitious project to grow an 8,000-km wall of trees across the Sahel, surpassed 20 million hectares of restored land. The initiative has improved food security for millions, created hundreds of thousands of jobs, and sequestered significant amounts of carbon."
+    },
+    "why_it_matters": {
+      "en": "This massive reforestation effort shows that humanity can reverse desertification and build climate resilience at continental scale."
+    },
+    "tags": [
+      "reforestation",
+      "africa",
+      "desertification"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Mud_Mosque_-_Bani_-_Sahel_Region_-_Burkina_Faso_-_02.jpg"
   },
   {
     "id": "env_004",
-    "emoji": "\ud83c\udf0a",
-    "title": { "en": "30x30 Ocean Protection Goal Gains Record Support with New Marine Reserves" },
+    "emoji": "🌊",
+    "title": {
+      "en": "30x30 Ocean Protection Goal Gains Record Support with New Marine Reserves"
+    },
     "category": "environment",
     "date": "2024-11-10",
     "source": "The Guardian",
     "source_url": "",
-    "summary": { "en": "Several nations announced major new marine protected areas in 2024, bringing the total protected ocean to over 8% globally. The momentum toward protecting 30% of oceans by 2030 accelerated as countries recognized the economic and ecological benefits of marine conservation." },
-    "why_it_matters": { "en": "Protecting ocean ecosystems safeguards biodiversity, supports fisheries, and helps regulate the climate for all life on Earth." },
-    "tags": ["ocean", "marine-conservation", "biodiversity"]
+    "summary": {
+      "en": "Several nations announced major new marine protected areas in 2024, bringing the total protected ocean to over 8% globally. The momentum toward protecting 30% of oceans by 2030 accelerated as countries recognized the economic and ecological benefits of marine conservation."
+    },
+    "why_it_matters": {
+      "en": "Protecting ocean ecosystems safeguards biodiversity, supports fisheries, and helps regulate the climate for all life on Earth."
+    },
+    "tags": [
+      "ocean",
+      "marine-conservation",
+      "biodiversity"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Global_Marine_Protected_Areas_as_of_Nov_2022.png"
   },
   {
     "id": "env_005",
-    "emoji": "\u26a1",
-    "title": { "en": "Global Coal Power Generation Declines for First Time Despite Rising Energy Demand" },
+    "emoji": "⚡",
+    "title": {
+      "en": "Global Coal Power Generation Declines for First Time Despite Rising Energy Demand"
+    },
     "category": "environment",
     "date": "2024-07-30",
     "source": "Carbon Brief",
     "source_url": "",
-    "summary": { "en": "For the first time in history, global coal-fired power generation declined even as total electricity demand increased in 2024. The milestone was driven by the rapid deployment of solar and wind energy, which grew fast enough to meet new demand and replace some existing coal generation." },
-    "why_it_matters": { "en": "The structural decline of coal marks a turning point in the fight against climate change, as the world's dirtiest fuel begins its terminal decline." },
-    "tags": ["coal", "energy-transition", "emissions"]
+    "summary": {
+      "en": "For the first time in history, global coal-fired power generation declined even as total electricity demand increased in 2024. The milestone was driven by the rapid deployment of solar and wind energy, which grew fast enough to meet new demand and replace some existing coal generation."
+    },
+    "why_it_matters": {
+      "en": "The structural decline of coal marks a turning point in the fight against climate change, as the world's dirtiest fuel begins its terminal decline."
+    },
+    "tags": [
+      "coal",
+      "energy-transition",
+      "emissions"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Be%C5%82chat%C3%B3w_Elektrownia.jpg"
   },
   {
     "id": "kind_001",
-    "emoji": "\u2764\ufe0f",
-    "title": { "en": "MacKenzie Scott Surpasses $17 Billion in Charitable Giving" },
+    "emoji": "❤️",
+    "title": {
+      "en": "MacKenzie Scott Surpasses $17 Billion in Charitable Giving"
+    },
     "category": "kindness",
     "date": "2024-04-10",
     "source": "The New York Times",
     "source_url": "",
-    "summary": { "en": "Philanthropist MacKenzie Scott continued her unprecedented giving spree, surpassing $17 billion donated since 2019. Her no-strings-attached approach has transformed thousands of nonprofits working on education, racial equity, food banks, and community development across the United States and globally." },
-    "why_it_matters": { "en": "Trusting organizations with unrestricted funds empowers communities to solve their own problems in ways that top-down approaches cannot." },
-    "tags": ["philanthropy", "generosity", "community"]
+    "summary": {
+      "en": "Philanthropist MacKenzie Scott continued her unprecedented giving spree, surpassing $17 billion donated since 2019. Her no-strings-attached approach has transformed thousands of nonprofits working on education, racial equity, food banks, and community development across the United States and globally."
+    },
+    "why_it_matters": {
+      "en": "Trusting organizations with unrestricted funds empowers communities to solve their own problems in ways that top-down approaches cannot."
+    },
+    "tags": [
+      "philanthropy",
+      "generosity",
+      "community"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Vilnius_Marathon_2015_volunteers_by_Augustas_Didzgalvis.jpg/1280px-Vilnius_Marathon_2015_volunteers_by_Augustas_Didzgalvis.jpg"
   },
   {
     "id": "kind_002",
-    "emoji": "\ud83c\udfe0",
-    "title": { "en": "Finland Virtually Eliminates Homelessness with Housing First Approach" },
+    "emoji": "🏠",
+    "title": {
+      "en": "Finland Virtually Eliminates Homelessness with Housing First Approach"
+    },
     "category": "kindness",
     "date": "2024-01-25",
     "source": "BBC News",
     "source_url": "",
-    "summary": { "en": "Finland reported its 7th consecutive year of declining homelessness, with fewer than 3,500 people experiencing homelessness in a country of 5.5 million. The Housing First model, which provides permanent housing before addressing other issues, has proven more effective and less costly than traditional shelter systems." },
-    "why_it_matters": { "en": "Finland's success proves that homelessness is a solvable problem when governments commit to evidence-based solutions." },
-    "tags": ["housing", "social-policy", "finland"]
+    "summary": {
+      "en": "Finland reported its 7th consecutive year of declining homelessness, with fewer than 3,500 people experiencing homelessness in a country of 5.5 million. The Housing First model, which provides permanent housing before addressing other issues, has proven more effective and less costly than traditional shelter systems."
+    },
+    "why_it_matters": {
+      "en": "Finland's success proves that homelessness is a solvable problem when governments commit to evidence-based solutions."
+    },
+    "tags": [
+      "housing",
+      "social-policy",
+      "finland"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Underpass_by_the_Suvilahti_gasometers_in_Helsinki%2C_Finland%2C_1985_-_02.jpg"
   },
   {
     "id": "kind_003",
-    "emoji": "\ud83c\udf93",
-    "title": { "en": "Syrian Refugee Becomes Germany's Youngest Medical School Graduate" },
+    "emoji": "🎓",
+    "title": {
+      "en": "Syrian Refugee Becomes Germany's Youngest Medical School Graduate"
+    },
     "category": "kindness",
     "date": "2024-09-05",
     "source": "Deutsche Welle",
     "source_url": "",
-    "summary": { "en": "A young Syrian refugee who arrived in Germany in 2015 speaking no German graduated from medical school at age 24, becoming one of the youngest doctors in the country's history. His journey from a refugee shelter to a hospital ward inspired nationwide conversation about the potential of welcoming displaced people." },
-    "why_it_matters": { "en": "Stories like this remind us that refugees are not burdens but human beings with extraordinary potential when given opportunity." },
-    "tags": ["refugees", "education", "integration"]
+    "summary": {
+      "en": "A young Syrian refugee who arrived in Germany in 2015 speaking no German graduated from medical school at age 24, becoming one of the youngest doctors in the country's history. His journey from a refugee shelter to a hospital ward inspired nationwide conversation about the potential of welcoming displaced people."
+    },
+    "why_it_matters": {
+      "en": "Stories like this remind us that refugees are not burdens but human beings with extraordinary potential when given opportunity."
+    },
+    "tags": [
+      "refugees",
+      "education",
+      "integration"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Vilnius_Marathon_2015_volunteers_by_Augustas_Didzgalvis.jpg/1280px-Vilnius_Marathon_2015_volunteers_by_Augustas_Didzgalvis.jpg"
   },
   {
     "id": "kind_004",
-    "emoji": "\ud83c\udf5e",
-    "title": { "en": "Community Fridges Movement Reaches 2,000 Locations Worldwide" },
+    "emoji": "🍞",
+    "title": {
+      "en": "Community Fridges Movement Reaches 2,000 Locations Worldwide"
+    },
     "category": "kindness",
     "date": "2024-05-15",
     "source": "The Guardian",
     "source_url": "",
-    "summary": { "en": "The global community fridge movement, where public refrigerators are stocked with free food for anyone in need, reached over 2,000 active locations worldwide in 2024. Run entirely by volunteers, these fridges reduce food waste while fighting food insecurity in neighborhoods across dozens of countries." },
-    "why_it_matters": { "en": "Community fridges show how simple, grassroots ideas powered by neighborly kindness can address both hunger and waste simultaneously." },
-    "tags": ["food-security", "community", "volunteering"]
+    "summary": {
+      "en": "The global community fridge movement, where public refrigerators are stocked with free food for anyone in need, reached over 2,000 active locations worldwide in 2024. Run entirely by volunteers, these fridges reduce food waste while fighting food insecurity in neighborhoods across dozens of countries."
+    },
+    "why_it_matters": {
+      "en": "Community fridges show how simple, grassroots ideas powered by neighborly kindness can address both hunger and waste simultaneously."
+    },
+    "tags": [
+      "food-security",
+      "community",
+      "volunteering"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Community_Fridge_Fredric_Douglas_Housing_New_York_City_-_Side_View_%28cropped%29.jpg"
   },
   {
     "id": "kind_005",
-    "emoji": "\ud83d\udc50",
-    "title": { "en": "Dolly Parton's Imagination Library Delivers 250 Millionth Free Book" },
+    "emoji": "👐",
+    "title": {
+      "en": "Dolly Parton's Imagination Library Delivers 250 Millionth Free Book"
+    },
     "category": "kindness",
     "date": "2024-03-01",
     "source": "Associated Press",
     "source_url": "",
-    "summary": { "en": "Dolly Parton's Imagination Library, which mails free books monthly to children from birth to age five, delivered its 250 millionth book in early 2024. The program now operates in the United States, United Kingdom, Canada, Australia, and Ireland, reaching over 2 million children each month." },
-    "why_it_matters": { "en": "Early childhood literacy is the single strongest predictor of future success, and Dolly Parton is putting books into the hands of millions who need them most." },
-    "tags": ["literacy", "children", "philanthropy"]
+    "summary": {
+      "en": "Dolly Parton's Imagination Library, which mails free books monthly to children from birth to age five, delivered its 250 millionth book in early 2024. The program now operates in the United States, United Kingdom, Canada, Australia, and Ireland, reaching over 2 million children each month."
+    },
+    "why_it_matters": {
+      "en": "Early childhood literacy is the single strongest predictor of future success, and Dolly Parton is putting books into the hands of millions who need them most."
+    },
+    "tags": [
+      "literacy",
+      "children",
+      "philanthropy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Dolly_Parton_at_%27Blue_Smoke_World_Tour%27_in_Knoxville.jpg/1920px-Dolly_Parton_at_%27Blue_Smoke_World_Tour%27_in_Knoxville.jpg"
   },
   {
     "id": "health_001",
-    "emoji": "\ud83d\udc89",
-    "title": { "en": "World's First Personalized mRNA Cancer Vaccine Shows Promising Results in Trials" },
+    "emoji": "💉",
+    "title": {
+      "en": "World's First Personalized mRNA Cancer Vaccine Shows Promising Results in Trials"
+    },
     "category": "health",
     "date": "2024-11-04",
     "source": "The Lancet",
     "source_url": "",
-    "summary": { "en": "BioNTech and Moderna's personalized mRNA cancer vaccines showed strong results in Phase 2 trials for melanoma and pancreatic cancer. Patients receiving the individualized neoantigen therapy alongside immunotherapy saw significantly reduced recurrence rates compared to immunotherapy alone." },
-    "why_it_matters": { "en": "Personalized cancer vaccines could transform oncology from treating cancer to preventing its return, saving millions of lives." },
-    "tags": ["cancer", "mrna", "vaccine"]
+    "summary": {
+      "en": "BioNTech and Moderna's personalized mRNA cancer vaccines showed strong results in Phase 2 trials for melanoma and pancreatic cancer. Patients receiving the individualized neoantigen therapy alongside immunotherapy saw significantly reduced recurrence rates compared to immunotherapy alone."
+    },
+    "why_it_matters": {
+      "en": "Personalized cancer vaccines could transform oncology from treating cancer to preventing its return, saving millions of lives."
+    },
+    "tags": [
+      "cancer",
+      "mrna",
+      "vaccine"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ijms-21-06582-g002.webp"
   },
   {
     "id": "health_002",
-    "emoji": "\ud83e\uddf9",
-    "title": { "en": "WHO Certifies Egypt as Malaria-Free After Century-Long Fight" },
+    "emoji": "🧹",
+    "title": {
+      "en": "WHO Certifies Egypt as Malaria-Free After Century-Long Fight"
+    },
     "category": "health",
     "date": "2024-10-20",
     "source": "WHO",
     "source_url": "",
-    "summary": { "en": "The World Health Organization certified Egypt as malaria-free in October 2024, marking the end of a 100-year campaign to eliminate the disease. Egypt became the third country in the WHO Eastern Mediterranean Region to achieve this milestone through sustained investment in surveillance and mosquito control." },
-    "why_it_matters": { "en": "Every country that eliminates malaria proves that this ancient disease can be defeated with persistence and public health infrastructure." },
-    "tags": ["malaria", "elimination", "public-health"]
+    "summary": {
+      "en": "The World Health Organization certified Egypt as malaria-free in October 2024, marking the end of a 100-year campaign to eliminate the disease. Egypt became the third country in the WHO Eastern Mediterranean Region to achieve this milestone through sustained investment in surveillance and mosquito control."
+    },
+    "why_it_matters": {
+      "en": "Every country that eliminates malaria proves that this ancient disease can be defeated with persistence and public health infrastructure."
+    },
+    "tags": [
+      "malaria",
+      "elimination",
+      "public-health"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Malaria_Parasite_Connecting_to_Human_Red_Blood_Cell_%2834034143483%29.jpg"
   },
   {
     "id": "health_003",
-    "emoji": "\ud83e\udde0",
-    "title": { "en": "Breakthrough Drug Slows Alzheimer's Progression by 35% in Clinical Trial" },
+    "emoji": "🧠",
+    "title": {
+      "en": "Breakthrough Drug Slows Alzheimer's Progression by 35% in Clinical Trial"
+    },
     "category": "health",
     "date": "2024-07-15",
     "source": "NEJM",
     "source_url": "",
-    "summary": { "en": "A new antibody drug, donanemab, was approved by the FDA after trials showed it slowed cognitive decline in early Alzheimer's patients by 35%. The treatment works by clearing amyloid plaques from the brain, with some patients able to stop treatment after plaque clearance." },
-    "why_it_matters": { "en": "After decades of failed Alzheimer's treatments, effective therapies finally offer hope to the 55 million people worldwide living with dementia." },
-    "tags": ["alzheimers", "neurology", "fda-approval"]
+    "summary": {
+      "en": "A new antibody drug, donanemab, was approved by the FDA after trials showed it slowed cognitive decline in early Alzheimer's patients by 35%. The treatment works by clearing amyloid plaques from the brain, with some patients able to stop treatment after plaque clearance."
+    },
+    "why_it_matters": {
+      "en": "After decades of failed Alzheimer's treatments, effective therapies finally offer hope to the 55 million people worldwide living with dementia."
+    },
+    "tags": [
+      "alzheimers",
+      "neurology",
+      "fda-approval"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Brain-ALZH.png"
   },
   {
     "id": "health_004",
-    "emoji": "\ud83d\udc76",
-    "title": { "en": "Global Child Mortality Falls to Historic Low of 4.6 Million" },
+    "emoji": "👶",
+    "title": {
+      "en": "Global Child Mortality Falls to Historic Low of 4.6 Million"
+    },
     "category": "health",
     "date": "2024-09-18",
     "source": "UNICEF",
     "source_url": "",
-    "summary": { "en": "UNICEF reported that global under-five mortality reached its lowest level ever recorded in 2024, with deaths falling below 4.6 million annually. This represents a more than 60% decline since 1990, driven by better access to vaccines, nutrition, clean water, and maternal healthcare." },
-    "why_it_matters": { "en": "The steady decline in child mortality is one of humanity's greatest achievements, saving over 10 million additional children every year compared to 1990 rates." },
-    "tags": ["child-health", "mortality", "progress"]
+    "summary": {
+      "en": "UNICEF reported that global under-five mortality reached its lowest level ever recorded in 2024, with deaths falling below 4.6 million annually. This represents a more than 60% decline since 1990, driven by better access to vaccines, nutrition, clean water, and maternal healthcare."
+    },
+    "why_it_matters": {
+      "en": "The steady decline in child mortality is one of humanity's greatest achievements, saving over 10 million additional children every year compared to 1990 rates."
+    },
+    "tags": [
+      "child-health",
+      "mortality",
+      "progress"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Child_mortality_rate_%28UN_IGME_%281960_to_2017%29%29%2C_OWID.svg/960px-Child_mortality_rate_%28UN_IGME_%281960_to_2017%29%29%2C_OWID.svg.png"
   },
   {
     "id": "health_005",
-    "emoji": "\ud83c\udfaf",
-    "title": { "en": "CRISPR Gene Therapy Casgevy Approved to Cure Sickle Cell Disease" },
+    "emoji": "🎯",
+    "title": {
+      "en": "CRISPR Gene Therapy Casgevy Approved to Cure Sickle Cell Disease"
+    },
     "category": "health",
     "date": "2024-01-15",
     "source": "Nature Medicine",
     "source_url": "",
-    "summary": { "en": "The world's first CRISPR-based gene therapy, Casgevy, began treating patients with sickle cell disease in early 2024 following regulatory approval. The one-time treatment edits patients' own stem cells to produce functional hemoglobin, effectively curing a disease that affects millions worldwide, predominantly in Africa." },
-    "why_it_matters": { "en": "A functional cure for sickle cell disease using gene editing marks the dawn of a new era in medicine where genetic diseases can be corrected at their source." },
-    "tags": ["crispr", "gene-therapy", "sickle-cell"]
+    "summary": {
+      "en": "The world's first CRISPR-based gene therapy, Casgevy, began treating patients with sickle cell disease in early 2024 following regulatory approval. The one-time treatment edits patients' own stem cells to produce functional hemoglobin, effectively curing a disease that affects millions worldwide, predominantly in Africa."
+    },
+    "why_it_matters": {
+      "en": "A functional cure for sickle cell disease using gene editing marks the dawn of a new era in medicine where genetic diseases can be corrected at their source."
+    },
+    "tags": [
+      "crispr",
+      "gene-therapy",
+      "sickle-cell"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Streptococcus_pyogenes_Cas9-DNA-RNA_complex_PDB_4OO8.png"
   },
   {
     "id": "tech_001",
-    "emoji": "\ud83e\uddd1\u200d\ud83e\uddaf",
-    "title": { "en": "AI-Powered App Be My Eyes Reaches 1 Million Blind Users with GPT-4 Visual Assistance" },
+    "emoji": "🧑‍🦯",
+    "title": {
+      "en": "AI-Powered App Be My Eyes Reaches 1 Million Blind Users with GPT-4 Visual Assistance"
+    },
     "category": "technology",
     "date": "2024-04-20",
     "source": "TechCrunch",
     "source_url": "",
-    "summary": { "en": "Be My Eyes, the app that connects blind users with sighted volunteers, reached 1 million active users after integrating GPT-4's visual AI capabilities. The Virtual Volunteer feature can now describe surroundings, read labels, navigate menus, and help with daily tasks in real time without waiting for a human volunteer." },
-    "why_it_matters": { "en": "AI accessibility tools are transforming independence for visually impaired people, making the world more navigable for hundreds of millions." },
-    "tags": ["accessibility", "ai", "visual-impairment"]
+    "summary": {
+      "en": "Be My Eyes, the app that connects blind users with sighted volunteers, reached 1 million active users after integrating GPT-4's visual AI capabilities. The Virtual Volunteer feature can now describe surroundings, read labels, navigate menus, and help with daily tasks in real time without waiting for a human volunteer."
+    },
+    "why_it_matters": {
+      "en": "AI accessibility tools are transforming independence for visually impaired people, making the world more navigable for hundreds of millions."
+    },
+    "tags": [
+      "accessibility",
+      "ai",
+      "visual-impairment"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Accessible_Books_Consortium_explains_-_a_digital_file_is_not_necessarily_accessible.webm/1920px--Accessible_Books_Consortium_explains_-_a_digital_file_is_not_necessarily_accessible.webm.jpg"
   },
   {
     "id": "tech_002",
-    "emoji": "\ud83d\udee0\ufe0f",
-    "title": { "en": "Starlink Satellite Internet Reaches 100 Countries, Connecting Remote Communities" },
+    "emoji": "🛠️",
+    "title": {
+      "en": "Starlink Satellite Internet Reaches 100 Countries, Connecting Remote Communities"
+    },
     "category": "technology",
     "date": "2024-08-15",
     "source": "Reuters",
     "source_url": "",
-    "summary": { "en": "SpaceX's Starlink satellite internet service expanded to over 100 countries in 2024, providing high-speed internet to remote and underserved communities worldwide. From schools in rural Kenya to hospitals in the Amazon rainforest, satellite broadband is bridging the digital divide for millions of people." },
-    "why_it_matters": { "en": "Internet access is a gateway to education, healthcare, and economic opportunity, and satellite technology is finally reaching the 2.6 billion people still offline." },
-    "tags": ["satellite-internet", "digital-divide", "connectivity"]
+    "summary": {
+      "en": "SpaceX's Starlink satellite internet service expanded to over 100 countries in 2024, providing high-speed internet to remote and underserved communities worldwide. From schools in rural Kenya to hospitals in the Amazon rainforest, satellite broadband is bridging the digital divide for millions of people."
+    },
+    "why_it_matters": {
+      "en": "Internet access is a gateway to education, healthcare, and economic opportunity, and satellite technology is finally reaching the 2.6 billion people still offline."
+    },
+    "tags": [
+      "satellite-internet",
+      "digital-divide",
+      "connectivity"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Starlink_Mission_%2847926144123%29.jpg"
   },
   {
     "id": "tech_003",
-    "emoji": "\ud83d\udd0b",
-    "title": { "en": "Sodium-Ion Battery Breakthrough Promises Affordable Energy Storage" },
+    "emoji": "🔋",
+    "title": {
+      "en": "Sodium-Ion Battery Breakthrough Promises Affordable Energy Storage"
+    },
     "category": "technology",
     "date": "2024-06-25",
     "source": "MIT Technology Review",
     "source_url": "",
-    "summary": { "en": "Chinese battery manufacturer CATL began mass production of sodium-ion batteries in 2024, offering a cheaper and more sustainable alternative to lithium-ion technology. Made from abundant materials like salt, these batteries could dramatically reduce the cost of energy storage for electric vehicles and grid applications." },
-    "why_it_matters": { "en": "Affordable energy storage is the missing piece of the clean energy puzzle, and sodium-ion batteries could make it accessible to everyone." },
-    "tags": ["batteries", "energy-storage", "sustainability"]
+    "summary": {
+      "en": "Chinese battery manufacturer CATL began mass production of sodium-ion batteries in 2024, offering a cheaper and more sustainable alternative to lithium-ion technology. Made from abundant materials like salt, these batteries could dramatically reduce the cost of energy storage for electric vehicles and grid applications."
+    },
+    "why_it_matters": {
+      "en": "Affordable energy storage is the missing piece of the clean energy puzzle, and sodium-ion batteries could make it accessible to everyone."
+    },
+    "tags": [
+      "batteries",
+      "energy-storage",
+      "sustainability"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Sodium-ion_battery_%28size_18650%29.jpg"
   },
   {
     "id": "tech_004",
-    "emoji": "\ud83c\udfe5",
-    "title": { "en": "AI Diagnosis Tool Detects 13 Cancers from Single Blood Test with 93% Accuracy" },
+    "emoji": "🏥",
+    "title": {
+      "en": "AI Diagnosis Tool Detects 13 Cancers from Single Blood Test with 93% Accuracy"
+    },
     "category": "technology",
     "date": "2024-09-10",
     "source": "Science",
     "source_url": "",
-    "summary": { "en": "Researchers developed an AI-powered blood test that can detect 13 different types of cancer from a single blood draw with over 93% accuracy. The multi-cancer early detection test identifies cancer signals in cell-free DNA, potentially enabling routine cancer screening as part of annual checkups." },
-    "why_it_matters": { "en": "Early detection is the most powerful tool against cancer, and a simple blood test could catch cancers years before symptoms appear." },
-    "tags": ["cancer-detection", "diagnostics", "ai-health"]
+    "summary": {
+      "en": "Researchers developed an AI-powered blood test that can detect 13 different types of cancer from a single blood draw with over 93% accuracy. The multi-cancer early detection test identifies cancer signals in cell-free DNA, potentially enabling routine cancer screening as part of annual checkups."
+    },
+    "why_it_matters": {
+      "en": "Early detection is the most powerful tool against cancer, and a simple blood test could catch cancers years before symptoms appear."
+    },
+    "tags": [
+      "cancer-detection",
+      "diagnostics",
+      "ai-health"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Cancer_biomarker_figure.png"
   },
   {
     "id": "tech_005",
-    "emoji": "\ud83c\udf3e",
-    "title": { "en": "Open-Source AI Models Help Smallholder Farmers Boost Yields by 30%" },
+    "emoji": "🌾",
+    "title": {
+      "en": "Open-Source AI Models Help Smallholder Farmers Boost Yields by 30%"
+    },
     "category": "technology",
     "date": "2024-11-20",
     "source": "Wired",
     "source_url": "",
-    "summary": { "en": "A coalition of agricultural research organizations released free, open-source AI tools that help smallholder farmers in developing countries optimize planting times, detect crop diseases, and manage water resources via basic smartphones. Pilot programs across sub-Saharan Africa and South Asia showed average yield improvements of 30%." },
-    "why_it_matters": { "en": "Putting AI-powered agricultural knowledge into the hands of the world's poorest farmers could be transformative for global food security." },
-    "tags": ["agriculture", "open-source", "food-security"]
+    "summary": {
+      "en": "A coalition of agricultural research organizations released free, open-source AI tools that help smallholder farmers in developing countries optimize planting times, detect crop diseases, and manage water resources via basic smartphones. Pilot programs across sub-Saharan Africa and South Asia showed average yield improvements of 30%."
+    },
+    "why_it_matters": {
+      "en": "Putting AI-powered agricultural knowledge into the hands of the world's poorest farmers could be transformative for global food security."
+    },
+    "tags": [
+      "agriculture",
+      "open-source",
+      "food-security"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Daedelus_comparison%2C_remote_sensing_in_precision_farming.jpg/500px-Daedelus_comparison%2C_remote_sensing_in_precision_farming.jpg"
   }
 ]

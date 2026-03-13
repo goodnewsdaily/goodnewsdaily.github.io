@@ -60,7 +60,9 @@ function _formatDate(dateStr) {
 /* ========== NEWS CARD ========== */
 function _newsCardHtml(story) {
   const color = _catColor(story.category);
+  const img = story.image ? `<img src="${story.image}" alt="" class="card-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="news-card" style="border-left-color:${color}">
+    ${img}
     <div class="news-card-header">
       <span class="news-card-icon">${story.emoji || _catIcon(story.category)}</span>
       <div>
@@ -95,7 +97,9 @@ function _musicCardHtml(pick) {
 
 /* ========== COMEDIAN CARD ========== */
 function _comedianCardHtml(c) {
+  const comedianImg = c.image ? `<img src="${c.image}" alt="${c.name}" class="comedian-img" loading="lazy" onerror="this.style.display='none'">` : '';
   return `<div class="comedian-card">
+    ${comedianImg}
     <div class="comedian-header">
       <span class="comedian-emoji">\ud83c\udfa4</span>
       <div>
