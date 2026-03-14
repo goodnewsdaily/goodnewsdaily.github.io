@@ -110,8 +110,15 @@
     <script data-goatcounter="https://goodnewsdaily.goatcounter.com/count"
             async src="//gc.zgo.at/count.js"></script>
     <script>
-    document.querySelector('.hamburger').addEventListener('click', () => {
+    document.querySelector('.hamburger')?.addEventListener('click', () => {
         document.querySelector('.nav').classList.toggle('open');
+    });
+    document.addEventListener('click', (e) => {
+        const nav = document.querySelector('.nav');
+        const hamburger = document.querySelector('.hamburger');
+        if (nav?.classList.contains('open') && !nav.contains(e.target) && !hamburger?.contains(e.target)) {
+            nav.classList.remove('open');
+        }
     });
     </script>
     <script>

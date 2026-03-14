@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+img { max-width: 100%; height: auto; }
 
 :root {
     --gnd-primary: #FFAB91;
@@ -118,9 +119,10 @@ body::-webkit-scrollbar {
     border: 1px solid var(--gnd-secondary-dark);
     padding: 0.3rem 0.5rem;
     border-radius: 4px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     cursor: pointer;
     outline: none;
+    min-height: 44px;
 }
 
 .lang-select option {
@@ -133,10 +135,14 @@ body::-webkit-scrollbar {
     display: none;
     background: none;
     border: none;
-    color: var(--white);
+    color: var(--text-dark);
     font-size: 1.5rem;
     cursor: pointer;
     padding: 0.25rem;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ==========================================================================
@@ -1012,8 +1018,8 @@ a.card {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     border: none;
     background: var(--gnd-primary);
@@ -1142,7 +1148,7 @@ a.card {
 }
 
 .share-btn {
-    padding: 0.3rem 0.8rem;
+    padding: 0.5rem 0.8rem;
     border: 1px solid var(--border-gray);
     border-radius: 16px;
     background: var(--white);
@@ -1150,6 +1156,9 @@ a.card {
     font-size: 0.85rem;
     cursor: pointer;
     text-decoration: none;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
     transition: background 0.2s;
 }
 
@@ -1383,7 +1392,7 @@ a.card {
     }
 
     .hamburger {
-        display: block;
+        display: inline-flex;
         position: absolute;
         right: 1.5rem;
         top: 50%;
@@ -1402,7 +1411,14 @@ a.card {
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 0.5rem;
+        gap: 0.25rem;
+    }
+
+    .nav.open a {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0;
     }
 
     .hero h1 {
