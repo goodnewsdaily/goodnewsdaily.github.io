@@ -1460,6 +1460,19 @@ a.card {
     .featured-news-strip .news-card {
         flex: 0 0 calc((100% - 1.25rem) / 2);
     }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .share-bar {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .summary-box {
+        padding: 1rem;
+    }
 }
 
 /* Mobile: 600px */
@@ -1500,7 +1513,7 @@ a.card {
     }
 
     .section-title {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .filter-bar {
@@ -1549,6 +1562,10 @@ a.card {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.3rem;
+    }
+
+    .page-title {
+        font-size: 1.3rem;
     }
 }
 
