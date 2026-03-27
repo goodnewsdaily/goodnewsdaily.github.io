@@ -77,6 +77,7 @@ const Data = (() => {
 
   // Monthly updates (auto-hides entries older than 2 months)
   const _updates = [
+    { id: 'mar2026c', date: '2026-03-27', icon: '🌱', titleKey: 'updates.mar2026c.title', descKey: 'updates.mar2026c.desc' },
     { id: 'mar2026b', date: '2026-03-12', icon: '\uD83C\uDFB5', titleKey: 'updates.mar2026b.title', descKey: 'updates.mar2026b.desc' },
     { id: 'mar2026', date: '2026-03-01', icon: '\u2600\uFE0F', titleKey: 'updates.mar2026.title', descKey: 'updates.mar2026.desc' }
   ];
